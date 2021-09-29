@@ -23,8 +23,6 @@ import {
 import s from './styles'
 import {Navigation} from 'react-native-navigation'
 import auth from '@react-native-firebase/auth'
-import {launchCamera, launchImageLibrary} from 'react-native-image-picker'
-import storage from '@react-native-firebase/storage'
 
 import Store from '../../Stores'
 
@@ -61,22 +59,6 @@ const MainView = props => {
       },
     })
     return
-
-    launchImageLibrary({}, async c => {
-      console.log('CAD:', c)
-      const name = c.assets?.[0]?.fileName
-      const path = c.assets?.[0]?.uri
-      const reference = storage().ref(`test/${name}`)
-      const a = await reference.putFile(path)
-      console.log('PUAS:', a)
-    })
-    // actions.addEntry(userId, {
-    //   label:'#test #tube #what',
-    //   owner: userId,
-    //   homeId: 'z1231',
-    //   roomId: 'z123113',
-    //   spotId: 'z12311'
-    // })
   }
 
   return (

@@ -6,28 +6,36 @@
  * @flow strict-local
  */
 
-import React, {useState, useEffect} from 'react'
+import React, {useState, useEffect, useRef} from 'react'
 
 import {
   Text,
+  Image,
   View,
-  TextInput,  
+  TextInput,
   ScrollView,
   SafeAreaView,
   Pressable,
 } from 'react-native'
 import {Navigation} from 'react-native-navigation'
 import auth from '@react-native-firebase/auth'
+import {launchCamera, launchImageLibrary} from 'react-native-image-picker'
+import storage from '@react-native-firebase/storage'
+
 import PlaceView from '../../Components/PlaceView'
 import Store from '../../Stores'
+import s from './styles'
 
 const AddItemView = props => {
   const [homeId, setHomeId] = useState(null)
   const [roomId, setRoomId] = useState(null)
   const [spotId, setSpotId] = useState(null)
   const [inputText, setInputText] = useState(null)
+  const [imageUri, setImageUri] = useState(null)
+  const finalImageUri = useRef(null)
   const [tags, setTags] = useState([])
-
+  const [loading, setLoading] = useState(false)
+  const [, actions] = Store('items').useStore()
   useEffect(() => {
     setRoomId(null)
   }, [homeId])
@@ -36,55 +44,75 @@ const AddItemView = props => {
     setSpotId(null)
   }, [roomId])
 
-  const data = Store('places').useStoreData('placeId')
-  // console.log('data:', data)
-  // console.log('USER:', auth()?.currentUser?.uid)
   const addTag = () => {
     const newTags = [inputText, ...tags]
     setTags(newTags)
     setInputText('')
   }
+
+  const addItem = async () => {
+    setLoading(true)
+    const userId = auth()?.currentUser?.uid
+    if (!tags.length) return
+    // if(!finalImageUri.current) return
+    // if (!homeId) return
+    // if (!roomId) return
+    // if (!spotId) return
+
+    actions.addEntry(userId, {
+      image: finalImageUri.current,
+      label: tags.join(', '),
+      owner: userId,
+      placeId: spotId,
+      homeId,
+      roomId,
+      spotId,
+    })
+    Navigation.dismissModal(props.componentId)
+  }
+
+  const uploadImage = () => {
+    launchImageLibrary({}, async c => {
+      const name = c.assets?.[0]?.fileName
+      const path = c.assets?.[0]?.uri
+      setImageUri(path)
+      const reference = storage().ref(`test/${name}`)
+      const a = await reference.putFile(path)
+      const url = await reference.getDownloadURL()
+      finalImageUri.current = url
+    })
+  }
+
   return (
     // <SafeAreaView style={{flex: 1}}>
-    <SafeAreaView style={{flex: 1, justifyContent: 'flex-end'}}>
-      <ScrollView style={{flex:1, backgroundColor: '#f4f4f4'}}>
+    <SafeAreaView style={s.safeArea}>
+      <ScrollView style={s.container}>
         <View
           style={{
             flexDirection: 'row',
             padding: 18,
           }}>
-          <View
-            style={{
-              width: 110,
-              height: 164,
-              backgroundColor: 'pink',
-              marginRight: 24,
-            }}
-          />
+          <Pressable onPress={uploadImage}>
+            {imageUri ? (
+              <Image
+                resizeMode='cover'
+                source={{uri: imageUri}}
+                style={s.image}
+              />
+            ) : (
+              <View style={s.imageContainer}></View>
+            )}
+          </Pressable>
           <View style={{flex: 1}}>
             <Text style={{fontSize: 18, marginBottom: 8}}>This is a </Text>
             <View style={{flexDirection: 'row', alignItems: 'center'}}>
               <TextInput
-                style={{
-                  flex: 1,
-                  height: 44,
-                  backgroundColor: 'white',
-                  paddingHorizontal: 8,
-                }}
+              placeholder='Add tags'
+                style={s.input}
                 onChangeText={setInputText}
                 value={inputText}
               />
-              <Pressable
-                onPress={addTag}
-                style={{
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  marginLeft: 12,
-                  height: 44,
-                  width: 44,
-                  backgroundColor: 'red',
-                }}
-              />
+              <Pressable onPress={addTag} style={s.addTag} />
             </View>
             <Text style={{fontSize: 12, marginVertical: 8}}>
               (Add more tags to find it easily later)
@@ -110,7 +138,9 @@ const AddItemView = props => {
         <PlaceView placeId={roomId} type='Spots' onPress={setSpotId} />
         <PlaceView placeId={spotId} type='Items' />
       </ScrollView>
-      <Pressable style={{height: 56, backgroundColor: 'black'}} />
+      <Pressable style={s.pageButton} onPress={addItem} disabled={loading}>
+        <Text style={{color: 'white'}}>ADD ITEM</Text>
+      </Pressable>
     </SafeAreaView>
   )
 }
@@ -122,7 +152,6 @@ AddItemView.options = {
     title: {
       text: 'Add Item',
       color: 'white',
-      
     },
     background: {
       color: '#4d089a',
