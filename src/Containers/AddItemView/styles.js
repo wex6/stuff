@@ -38,8 +38,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     marginLeft: 12,
     height: 44,
-    width: 44,
-    backgroundColor: 'red',
+    width: 44
   },
   pageButton: {
     alignItems: 'center',

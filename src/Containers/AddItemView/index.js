@@ -20,6 +20,7 @@ import {
 import {Navigation} from 'react-native-navigation'
 import auth from '@react-native-firebase/auth'
 import {launchCamera, launchImageLibrary} from 'react-native-image-picker'
+import LottieView from 'lottie-react-native'
 import storage from '@react-native-firebase/storage'
 
 import PlaceView from '../../Components/PlaceView'
@@ -100,19 +101,32 @@ const AddItemView = props => {
                 style={s.image}
               />
             ) : (
-              <View style={s.imageContainer}></View>
+              <View style={s.imageContainer}>
+                <LottieView
+                  style={{width:64}}
+                  source={require('../../assets/camera.json')}
+                  autoPlay
+                  loop
+                />
+              </View>
             )}
           </Pressable>
           <View style={{flex: 1}}>
             <Text style={{fontSize: 18, marginBottom: 8}}>This is a </Text>
             <View style={{flexDirection: 'row', alignItems: 'center'}}>
               <TextInput
-              placeholder='Add tags'
+                placeholder='Add tags'
                 style={s.input}
                 onChangeText={setInputText}
                 value={inputText}
               />
-              <Pressable onPress={addTag} style={s.addTag} />
+              <Pressable onPress={addTag} style={s.addTag}>
+                <LottieView
+                  source={require('../../assets/add-new.json')}
+                  autoPlay
+                  loop
+                />
+              </Pressable>
             </View>
             <Text style={{fontSize: 12, marginVertical: 8}}>
               (Add more tags to find it easily later)
