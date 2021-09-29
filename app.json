@@ -1,4 +1,5 @@
 {
   "name": "stuff",
-  "displayName": "stuff"
+  "displayName": "stuff",
+  "packageName":"com.wex6softwares.stuff"
 }
