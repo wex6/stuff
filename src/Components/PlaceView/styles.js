@@ -8,7 +8,7 @@ const styles = StyleSheet.create({
     marginHorizontal: 18,
   },
   nameText: {
-    fontSize: 28,
+    fontSize: 24,
     marginTop: 12,
     alignItems: 'center',
     textAlignVertical:'center',

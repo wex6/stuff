@@ -49,6 +49,12 @@ const MainView = props => {
               passProps: {
                 text: 'stack with one child',
               },
+              options: {
+                modalPresentationStyle:'pageSheet',
+                layout: {
+                  backgroundColor: 'cyan'
+                }
+              }
             },
           },
         ],
