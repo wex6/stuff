@@ -14,14 +14,14 @@ const styles = StyleSheet.create({
     textAlignVertical:'center',
     marginBottom: 6,
   },
-  item: {
+  item: (selected)=>({
     borderRadius: 12,
-    backgroundColor: 'white',
+    backgroundColor: selected?'#eb8677':'#fcebd0',
     marginHorizontal: 8,
     marginTop: 8,
     paddingVertical: 24,
     paddingHorizontal: 36,
-  },
+  }),
 })
 
 export default styles

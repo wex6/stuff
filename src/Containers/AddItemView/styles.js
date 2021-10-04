@@ -35,6 +35,8 @@ const styles = StyleSheet.create({
   },
   addTag: {
     alignItems: 'center',
+    backgroundColor: '#cdeaf4',
+    borderRadius:999,
     justifyContent: 'center',
     marginLeft: 12,
     height: 44,

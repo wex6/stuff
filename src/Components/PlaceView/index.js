@@ -18,7 +18,7 @@ const PlaceItem = props => {
   const place = Store('places').useStoreData(props.id) || {}
   return (
     <TouchableOpacity
-      style={s.item}
+      style={s.item(props.selected)}
       onPress={() => {
         console.log('Onpress:', props.id)
         props.onPress(props.id)
@@ -48,6 +48,7 @@ const PlaceView = props => {
       addedAt: new Date().getTime(),
     })
     setShowAdd(false)
+    props.onPress(placeId)
   }
 
   if (!props.placeId) return null
@@ -66,7 +67,11 @@ const PlaceView = props => {
       <ScrollView horizontal showsHorizontalScrollIndicator={false}>
         <View style={{width: 10}}></View>
         {Object.entries(places).map(([key, item]) => (
-          <PlaceItem id={key} onPress={props.onPress} />
+          <PlaceItem
+            selected={key === props.selectedId}
+            id={key}
+            onPress={props.onPress}
+          />
         ))}
       </ScrollView>
       <Dialog.Container
@@ -92,7 +97,7 @@ const PlaceView = props => {
 export default PlaceView
 
 PlaceView.defaultProps = {
-  type:'',
+  type: '',
   items: [],
   onPress: () => {},
 }

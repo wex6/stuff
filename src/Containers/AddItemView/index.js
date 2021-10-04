@@ -28,21 +28,22 @@ import Store from '../../Stores'
 import s from './styles'
 
 const AddItemView = props => {
-  const [homeId, setHomeId] = useState(null)
-  const [roomId, setRoomId] = useState(null)
-  const [spotId, setSpotId] = useState(null)
+  console.log('TED:', props.text)
+  const [homeId, setHomeId] = useState(props.homeId)
+  const [roomId, setRoomId] = useState(props.roomId)
+  const [spotId, setSpotId] = useState(props.spotId)
   const [inputText, setInputText] = useState(null)
-  const [imageUri, setImageUri] = useState(null)
-  const finalImageUri = useRef(null)
-  const [tags, setTags] = useState([])
+  const [imageUri, setImageUri] = useState(props.image)
+  const finalImageUri = useRef(props.image)
+  const [tags, setTags] = useState(props.tags || [])
   const [loading, setLoading] = useState(false)
   const [, actions] = Store('items').useStore()
   useEffect(() => {
-    setRoomId(null)
+    setRoomId(props.roomId)
   }, [homeId])
 
   useEffect(() => {
-    setSpotId(null)
+    setSpotId(props.spotId)
   }, [roomId])
 
   const addTag = () => {
@@ -54,6 +55,29 @@ const AddItemView = props => {
   const addItem = async () => {
     setLoading(true)
     const userId = auth()?.currentUser?.uid
+    if(props.editing) {
+      console.log('EDIT:', props.id, {
+        image: finalImageUri.current,
+        label: tags.join(', '),
+        owner: userId,
+        placeId: spotId,
+        homeId,
+        roomId,
+        spotId,
+      })
+      actions.updateEntry(userId, props.id, {
+        image: finalImageUri.current,
+        label: tags.join(', '),
+        owner: userId,
+        placeId: spotId,
+        homeId,
+        roomId,
+        spotId,
+      })
+      Navigation.dismissModal(props.componentId)
+      return
+    }
+
     if (!tags.length) return
     // if(!finalImageUri.current) return
     // if (!homeId) return
@@ -121,11 +145,11 @@ const AddItemView = props => {
                 value={inputText}
               />
               <Pressable onPress={addTag} style={s.addTag}>
-                <LottieView
+                {/* <LottieView
                   source={require('../../assets/add-new.json')}
                   autoPlay
                   loop
-                />
+                /> */}
               </Pressable>
             </View>
             <Text style={{fontSize: 12, marginVertical: 8}}>
@@ -146,14 +170,15 @@ const AddItemView = props => {
         <PlaceView
           placeId={auth()?.currentUser?.uid}
           type='Homes'
+          selectedId={homeId}
           onPress={setHomeId}
         />
-        <PlaceView placeId={homeId} type='Rooms' onPress={setRoomId} />
-        <PlaceView placeId={roomId} type='Spots' onPress={setSpotId} />
-        <PlaceView placeId={spotId} type='Items' />
+        <PlaceView placeId={homeId} type='Rooms' selectedId={roomId} onPress={setRoomId} />
+        <PlaceView placeId={roomId} type='Spots' selectedId={spotId} onPress={setSpotId} />
+        {/* <PlaceView placeId={spotId} type='Items' /> */}
       </ScrollView>
       <Pressable style={s.pageButton} onPress={addItem} disabled={loading}>
-        <Text style={{color: 'white'}}>ADD ITEM</Text>
+        <Text style={{color: 'white'}}>{props.editing?'SAVE':'ADD ITEM'}</Text>
       </Pressable>
     </SafeAreaView>
   )

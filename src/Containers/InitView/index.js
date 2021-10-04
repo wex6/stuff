@@ -57,7 +57,7 @@ const InitView = props => {
 
     Navigation.setStackRoot(props.componentId, {
       component: {
-        name: 'AddItem',
+        name: 'Main',
       },
     })
   }

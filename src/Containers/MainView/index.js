@@ -12,9 +12,11 @@ import {
   SafeAreaView,
   ScrollView,
   StatusBar,
+  ImageBackground,
   StyleSheet,
   TouchableOpacity,
   Text,
+  TextInput,
   useColorScheme,
   Button,
   View,
@@ -27,15 +29,75 @@ import auth from '@react-native-firebase/auth'
 import Store from '../../Stores'
 
 const StuffItem = props => {
-  const onPress = () => {}
-  return <TouchableOpacity style={s.item} onPress={onPress} />
+  const onPress = () => {
+    Navigation.showModal({
+      stack: {
+        children: [
+          {
+            component: {
+              name: 'AddItem',
+              passProps: {
+                editing:true,
+                id:props.id,
+                tags: props.label?.split(', '),
+                image:props.image,
+                homeId:props.homeId,
+                roomId:props.roomId,
+                spotId:props.spotId,
+              },
+              options: {
+                modalPresentationStyle: 'pageSheet',
+                topBar: {
+                  title: {
+                    text: 'Edit Item'
+                  }
+                }
+              },
+            },
+          },
+        ],
+      },
+    })
+  }
+  return (
+    <TouchableOpacity style={s.item} onPress={onPress}>
+      <ImageBackground style={s.image} source={{uri: props.image}} />
+    </TouchableOpacity>
+  )
 }
 
 const MainView = props => {
   const userId = auth()?.currentUser?.uid
   const items = Store('items').useStoreData(userId) || {}
-  const [, actions] = Store('items').useStore()
   const itemObjects = Object.entries(items)
+  const [counts, setCounts] = useState({})
+  const [filterText, setFilterText] = useState('')
+  const [filteredItems, setFilteredItems] = useState([])
+
+  useEffect(() => {
+    const homes = [...new Set(filteredItems.map(([key, i]) => i.homeId))]
+    const rooms = [...new Set(filteredItems.map(([key, i]) => i.roomId))]
+    const spots = [...new Set(filteredItems.map(([key, i]) => i.spotId))]
+    setCounts({
+      items: filteredItems.length,
+      homes: homes.length,
+      rooms: rooms.length,
+      spots: spots.length,
+    })
+  }, [filteredItems.length])
+
+  useEffect(() => {
+    setFilteredItems(itemObjects)
+  }, [itemObjects.length])
+
+  useEffect(() => {
+    if (!filterText) return setFilteredItems(itemObjects)
+    const filtered = itemObjects.filter(([key, value]) =>
+      value?.label?.toLowerCase()?.includes(filterText?.toLowerCase()),
+    )
+
+    setFilteredItems(filtered)
+  }, [filterText])
 
   const onAdd = () => {
     Navigation.showModal({
@@ -48,11 +110,8 @@ const MainView = props => {
                 text: 'stack with one child',
               },
               options: {
-                modalPresentationStyle:'pageSheet',
-                layout: {
-                  backgroundColor: 'cyan'
-                }
-              }
+                modalPresentationStyle: 'pageSheet',
+              },
             },
           },
         ],
@@ -61,16 +120,34 @@ const MainView = props => {
     return
   }
 
+  console.log('df:', filteredItems)
+
   return (
     // <SafeAreaView style={{flex: 1}}>
     <View style={s.container}>
+      <TextInput
+        placeholder='Search'
+        onChangeText={setFilterText}
+        value={filterText}
+        style={{
+          height: 44,
+          borderRadius: 6,
+          padding: 8,
+          borderWidth: 2,
+          borderColor: '#b3d4df',
+          marginBottom: 24,
+        }}
+      />
       <View style={s.infoBar}>
-        <Text>{itemObjects.length} Items | 10 Spots | 3 Rooms | 1 Home</Text>
+        <Text>
+          {counts.items} Items | {counts.spots} Spots | {counts.rooms} Rooms |{' '}
+          {counts.homes} Home
+        </Text>
         <Button title='Add' onPress={onAdd} />
       </View>
       <View style={{flexDirection: 'row', flexWrap: 'wrap'}}>
-        {itemObjects.map(([key, item]) => (
-          <StuffItem key={key} {...item} />
+        {filteredItems.map(([key, item]) => (
+          <StuffItem id={key} key={key} {...item} />
         ))}
       </View>
     </View>

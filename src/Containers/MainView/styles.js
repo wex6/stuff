@@ -23,11 +23,16 @@ const styles = StyleSheet.create({
     height: 150,
     borderRadius: 12,
     width: '27%',
-    backgroundColor: 'pink',
-    justifyContent: 'center',
+    overflow:'hidden',
+    backgroundColor: '#fcebd0',
     margin: '3%',
     marginVertical: 12,
   },
+  image: {
+    width:'100%', 
+    height:'100%',
+    borderRadius:12
+  }, 
   infoBar: {
     flexDirection: 'row',
     justifyContent: 'space-between',
