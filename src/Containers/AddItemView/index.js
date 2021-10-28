@@ -36,7 +36,7 @@ const AddItemView = props => {
   const [inputText, setInputText] = useState(null)
   const [imageUri, setImageUri] = useState(props.image)
   const finalImageUri = useRef(props.image)
-  const textInput = useRef(null)
+  const tagsInput = useRef(null)
   const [tags, setTags] = useState(props.tags || [])
   const [loading, setLoading] = useState(false)
   const [, actions] = Store('items').useStore()
@@ -101,15 +101,25 @@ const AddItemView = props => {
   }
 
   const uploadImage = () => {
-    launchImageLibrary({}, async c => {
-      const name = c.assets?.[0]?.fileName
-      const path = c.assets?.[0]?.uri
-      setImageUri(path)
-      const reference = storage().ref(`test/${name}`)
-      const a = await reference.putFile(path)
-      const url = await reference.getDownloadURL()
-      finalImageUri.current = url
-    })
+    // launchCamera(
+    launchImageLibrary(
+      {
+        saveToPhotos: true,
+        maxWidth: 220,
+        maxHeight: 328,
+      },
+      async c => {
+        if (c.didCancel || c.errorCode) return
+        const name = c.assets?.[0]?.fileName
+        const path = c.assets?.[0]?.uri
+        setImageUri(path)
+        tagsInput.current.focus()
+        const reference = storage().ref(`test/${name}`)
+        const a = await reference.putFile(path)
+        const url = await reference.getDownloadURL()
+        finalImageUri.current = url
+      },
+    )
   }
 
   const onKeyPress = ({nativeEvent}) => {
@@ -122,7 +132,7 @@ const AddItemView = props => {
     // console.log('KC:', keyValue)
     // if(keyValue.length < 2) return
     // console.log('TEST:', textInput)
-    // textInput.current.focus()
+    //
   }
 
   console.log('ROOMID:', roomId)
@@ -159,7 +169,7 @@ const AddItemView = props => {
               <Text style={{fontSize: 18, marginBottom: 8}}>This is a </Text>
               <View style={{flexDirection: 'row', alignItems: 'center'}}>
                 <TextInput
-                  ref={textInput}
+                  ref={tagsInput}
                   placeholder='Add tags'
                   style={s.input}
                   returnKeyType='done'

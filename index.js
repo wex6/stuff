@@ -18,6 +18,10 @@ Navigation.registerComponent('Init', () => InitView)
 Navigation.registerComponent('AddItem', () => AddItemView)
 Navigation.registerComponent('Main', () => MainView)
 
+
+// COnf
+console.log('Version:', '1.1')
+
 const createStackChild = (id, names, options) => ({
   stack: {
     id,
