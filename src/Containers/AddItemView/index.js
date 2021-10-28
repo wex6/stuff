@@ -102,7 +102,8 @@ const AddItemView = props => {
 
   const uploadImage = () => {
     // launchCamera(
-    launchImageLibrary(
+    // launchImageLibrary(
+    launchCamera(
       {
         saveToPhotos: true,
         maxWidth: 220,
