@@ -21,7 +21,7 @@ import {
   Button,
   View,
 } from 'react-native'
-
+import Fuse from 'fuse.js'
 import s from './styles'
 import {Navigation} from 'react-native-navigation'
 import auth from '@react-native-firebase/auth'
@@ -59,6 +59,7 @@ const StuffItem = props => {
       },
     })
   }
+  
   return (
     <TouchableOpacity style={s.item} onPress={onPress}>
       <ImageBackground style={s.image} source={{uri: props.image}} />
@@ -92,6 +93,14 @@ const MainView = props => {
 
   useEffect(() => {
     if (!filterText) return setFilteredItems(itemObjects)
+    console.log('ITEMS:', Object.values(items))
+    const fuse = new Fuse(Object.values(items), {
+      includeScore: true,
+      distance:0,
+      keys: ['label']
+    })
+
+    console.log('FUs:', fuse.search(filterText))
     const filtered = itemObjects.filter(([key, value]) =>
       value?.label?.toLowerCase()?.includes(filterText?.toLowerCase()),
     )
@@ -160,7 +169,7 @@ export default MainView
 MainView.options = {
   topBar: {
     title: {
-      text: 'Items',
+      text: 'Stuff',
       color: 'white',
     },
     background: {

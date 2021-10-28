@@ -8,6 +8,8 @@
 
 import React, {useState, useEffect} from 'react'
 import type {Node} from 'react'
+
+import CodePushComponent from './CodePushComponent'
 import {Navigation} from 'react-native-navigation'
 import {
   SafeAreaView,
@@ -131,6 +133,7 @@ const App: () => Node = props => {
   return (
     <SafeAreaView style={backgroundStyle}>
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
+      <CodePushComponent />
       <View style={{height: 100}}></View>
       {/* <GoogleSignIn /> */}
       <GoogleSigninButton onPress={onGoogleButtonPress} />

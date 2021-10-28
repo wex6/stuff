@@ -38,6 +38,8 @@ const PlaceView = props => {
     setShowAdd(true)
   }
 
+  console.log('PID:', props.type, props.placeId)
+
   const onCreate = async () => {
     const placeId = await actions.addBaseEntry({
       name: newText,

@@ -12,6 +12,7 @@ import MainView from './src/Containers/MainView/'
 import AddItemView from './src/Containers/AddItemView'
 import {Navigation} from 'react-native-navigation'
 
+
 Navigation.registerComponent('Login', () => App)
 Navigation.registerComponent('Init', () => InitView)
 Navigation.registerComponent('AddItem', () => AddItemView)

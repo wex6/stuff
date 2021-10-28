@@ -1,0 +1,926 @@
+2021-10-08 04:31:56 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fc02677d130; archive(resolved)='<IDEArchive: 0x7fbfcf94a2e0>', distributionTask(resolved)='2', distributionDestination(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fc037198460>', team(resolved)='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc0236ee240; teamID='M556D4N79A', teamName='Nishanth Shankar', teamType='Individual', username='nishanthshankr@gmail.com', isFreeProvisioningTeam='0'>'>
+	Chain (12, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fc02677d130; archive = '<IDEArchive: 0x7fbfcf94a2e0>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fc037198460>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc0236ee240; teamID='M556D4N79A', teamName='Nishanth Shankar', teamType='Individual', username='nishanthshankr@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fbfb36940a0; archive = '<IDEArchive: 0x7fbfcf94a2e0>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fc037198460>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc0236ee240; teamID='M556D4N79A', teamName='Nishanth Shankar', teamType='Individual', username='nishanthshankr@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fbfb36d3190; archive = '<IDEArchive: 0x7fbfcf94a2e0>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fc037198460>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc0236ee240; teamID='M556D4N79A', teamName='Nishanth Shankar', teamType='Individual', username='nishanthshankr@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fbfcfaff620; archive = '<IDEArchive: 0x7fbfcf94a2e0>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fc037198460>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc0236ee240; teamID='M556D4N79A', teamName='Nishanth Shankar', teamType='Individual', username='nishanthshankr@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fbfd1c92840; archive = '<IDEArchive: 0x7fbfcf94a2e0>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fc037198460>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc0236ee240; teamID='M556D4N79A', teamName='Nishanth Shankar', teamType='Individual', username='nishanthshankr@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fbfd1ad09c0; archive = '<IDEArchive: 0x7fbfcf94a2e0>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fc037198460>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc0236ee240; teamID='M556D4N79A', teamName='Nishanth Shankar', teamType='Individual', username='nishanthshankr@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fbfb542b220; archive = '<IDEArchive: 0x7fbfcf94a2e0>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fc037198460>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc0236ee240; teamID='M556D4N79A', teamName='Nishanth Shankar', teamType='Individual', username='nishanthshankr@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fbfd1c71510; archive = '<IDEArchive: 0x7fbfcf94a2e0>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fc037198460>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc0236ee240; teamID='M556D4N79A', teamName='Nishanth Shankar', teamType='Individual', username='nishanthshankr@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fbfd1faecb0; archive = '<IDEArchive: 0x7fbfcf94a2e0>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fc037198460>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc0236ee240; teamID='M556D4N79A', teamName='Nishanth Shankar', teamType='Individual', username='nishanthshankr@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fbfd1aac540; archive = '<IDEArchive: 0x7fbfcf94a2e0>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fc037198460>', team='(null)'>
+	<IDEDistributionContext: 0x7fbfd1c34f70; archive = '<IDEArchive: 0x7fbfcf94a2e0>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fc037198460>', team='(null)'>
+	<IDEDistributionContext: 0x7fbfb54a9060; archive = '<IDEArchive: 0x7fbfcf94a2e0>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fc02677d130>
+2021-10-08 04:31:56 +0000  Processing step: IDEDistributionCreateDestRootStep
+2021-10-08 04:31:56 +0000  Processing step: IDEDistributionCopyItemStep
+2021-10-08 04:31:56 +0000  Running /usr/bin/ditto '-V' '/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app' '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app'
+2021-10-08 04:31:56 +0000  >>> Copying /Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app 
+2021-10-08 04:31:56 +0000  copying file ./_CodeSignature/CodeResources ... 
+2021-10-08 04:31:56 +0000  24586 bytes for ./_CodeSignature/CodeResources
+2021-10-08 04:31:56 +0000  copying file ./AppIcon60x60@2x.png ... 
+2021-10-08 04:31:56 +0000  10978 bytes for ./AppIcon60x60@2x.png
+2021-10-08 04:31:56 +0000  copying file ./AccessibilityResources.bundle/en.lproj/Localizable.strings ... 
+2021-10-08 04:31:56 +0000  518 bytes for ./AccessibilityResources.bundle/en.lproj/Localizable.strings
+2021-10-08 04:31:56 +0000  copying file ./AccessibilityResources.bundle/Info.plist ... 
+2021-10-08 04:31:56 +0000  792 bytes for ./AccessibilityResources.bundle/Info.plist
+2021-10-08 04:31:56 +0000  copying file ./GoogleService-Info.plist ... 
+2021-10-08 04:31:56 +0000  646 bytes for ./GoogleService-Info.plist
+2021-10-08 04:31:56 +0000  copying file ./stuff ... 
+2021-10-08 04:31:57 +0000  52136496 bytes for ./stuff
+2021-10-08 04:31:57 +0000  copying file ./GoogleSignIn.bundle/de.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:31:57 +0000  1703 bytes for ./GoogleSignIn.bundle/de.lproj/GoogleSignIn.strings
+2021-10-08 04:31:57 +0000  copying file ./GoogleSignIn.bundle/he.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:31:57 +0000  1780 bytes for ./GoogleSignIn.bundle/he.lproj/GoogleSignIn.strings
+2021-10-08 04:31:57 +0000  copying file ./GoogleSignIn.bundle/ar.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:31:57 +0000  1759 bytes for ./GoogleSignIn.bundle/ar.lproj/GoogleSignIn.strings
+2021-10-08 04:31:57 +0000  copying file ./GoogleSignIn.bundle/el.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:31:57 +0000  2103 bytes for ./GoogleSignIn.bundle/el.lproj/GoogleSignIn.strings
+2021-10-08 04:31:57 +0000  copying file ./GoogleSignIn.bundle/ja.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:31:57 +0000  1711 bytes for ./GoogleSignIn.bundle/ja.lproj/GoogleSignIn.strings
+2021-10-08 04:31:57 +0000  copying file ./GoogleSignIn.bundle/en.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:31:57 +0000  1547 bytes for ./GoogleSignIn.bundle/en.lproj/GoogleSignIn.strings
+2021-10-08 04:31:57 +0000  copying file ./GoogleSignIn.bundle/uk.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:31:57 +0000  1864 bytes for ./GoogleSignIn.bundle/uk.lproj/GoogleSignIn.strings
+2021-10-08 04:31:57 +0000  copying file ./GoogleSignIn.bundle/es_MX.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:31:57 +0000  1607 bytes for ./GoogleSignIn.bundle/es_MX.lproj/GoogleSignIn.strings
+2021-10-08 04:31:57 +0000  copying file ./GoogleSignIn.bundle/zh_CN.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:31:57 +0000  1489 bytes for ./GoogleSignIn.bundle/zh_CN.lproj/GoogleSignIn.strings
+2021-10-08 04:31:57 +0000  copying file ./GoogleSignIn.bundle/nb.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:31:57 +0000  1593 bytes for ./GoogleSignIn.bundle/nb.lproj/GoogleSignIn.strings
+2021-10-08 04:31:57 +0000  copying file ./GoogleSignIn.bundle/es.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:31:57 +0000  1678 bytes for ./GoogleSignIn.bundle/es.lproj/GoogleSignIn.strings
+2021-10-08 04:31:57 +0000  copying file ./GoogleSignIn.bundle/pt_BR.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:31:57 +0000  1608 bytes for ./GoogleSignIn.bundle/pt_BR.lproj/GoogleSignIn.strings
+2021-10-08 04:31:57 +0000  copying file ./GoogleSignIn.bundle/da.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:31:57 +0000  1611 bytes for ./GoogleSignIn.bundle/da.lproj/GoogleSignIn.strings
+2021-10-08 04:31:57 +0000  copying file ./GoogleSignIn.bundle/it.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:31:57 +0000  1570 bytes for ./GoogleSignIn.bundle/it.lproj/GoogleSignIn.strings
+2021-10-08 04:31:57 +0000  copying file ./GoogleSignIn.bundle/sk.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:31:57 +0000  1665 bytes for ./GoogleSignIn.bundle/sk.lproj/GoogleSignIn.strings
+2021-10-08 04:31:57 +0000  copying file ./GoogleSignIn.bundle/pt_PT.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:31:57 +0000  1646 bytes for ./GoogleSignIn.bundle/pt_PT.lproj/GoogleSignIn.strings
+2021-10-08 04:31:57 +0000  copying file ./GoogleSignIn.bundle/google@3x.png ... 
+2021-10-08 04:31:57 +0000  1773 bytes for ./GoogleSignIn.bundle/google@3x.png
+2021-10-08 04:31:57 +0000  copying file ./GoogleSignIn.bundle/ms.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:31:57 +0000  1565 bytes for ./GoogleSignIn.bundle/ms.lproj/GoogleSignIn.strings
+2021-10-08 04:31:57 +0000  copying file ./GoogleSignIn.bundle/sv.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:31:57 +0000  1579 bytes for ./GoogleSignIn.bundle/sv.lproj/GoogleSignIn.strings
+2021-10-08 04:31:57 +0000  copying file ./GoogleSignIn.bundle/cs.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:31:57 +0000  1615 bytes for ./GoogleSignIn.bundle/cs.lproj/GoogleSignIn.strings
+2021-10-08 04:31:57 +0000  copying file ./GoogleSignIn.bundle/google@2x.png ... 
+2021-10-08 04:31:57 +0000  1166 bytes for ./GoogleSignIn.bundle/google@2x.png
+2021-10-08 04:31:57 +0000  copying file ./GoogleSignIn.bundle/ko.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:31:57 +0000  1634 bytes for ./GoogleSignIn.bundle/ko.lproj/GoogleSignIn.strings
+2021-10-08 04:31:57 +0000  copying file ./GoogleSignIn.bundle/hu.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:31:57 +0000  1663 bytes for ./GoogleSignIn.bundle/hu.lproj/GoogleSignIn.strings
+2021-10-08 04:31:57 +0000  copying file ./GoogleSignIn.bundle/tr.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:31:57 +0000  1596 bytes for ./GoogleSignIn.bundle/tr.lproj/GoogleSignIn.strings
+2021-10-08 04:31:57 +0000  copying file ./GoogleSignIn.bundle/pl.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:31:57 +0000  1578 bytes for ./GoogleSignIn.bundle/pl.lproj/GoogleSignIn.strings
+2021-10-08 04:31:57 +0000  copying file ./GoogleSignIn.bundle/zh_TW.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:31:57 +0000  1525 bytes for ./GoogleSignIn.bundle/zh_TW.lproj/GoogleSignIn.strings
+2021-10-08 04:31:57 +0000  copying file ./GoogleSignIn.bundle/en_GB.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:31:57 +0000  1547 bytes for ./GoogleSignIn.bundle/en_GB.lproj/GoogleSignIn.strings
+2021-10-08 04:31:57 +0000  copying file ./GoogleSignIn.bundle/vi.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:31:57 +0000  1717 bytes for ./GoogleSignIn.bundle/vi.lproj/GoogleSignIn.strings
+2021-10-08 04:31:57 +0000  copying file ./GoogleSignIn.bundle/ru.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:31:57 +0000  1954 bytes for ./GoogleSignIn.bundle/ru.lproj/GoogleSignIn.strings
+2021-10-08 04:31:57 +0000  copying file ./GoogleSignIn.bundle/fr_CA.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:31:57 +0000  1657 bytes for ./GoogleSignIn.bundle/fr_CA.lproj/GoogleSignIn.strings
+2021-10-08 04:31:57 +0000  copying file ./GoogleSignIn.bundle/fr.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:31:57 +0000  1676 bytes for ./GoogleSignIn.bundle/fr.lproj/GoogleSignIn.strings
+2021-10-08 04:31:57 +0000  copying file ./GoogleSignIn.bundle/fi.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:31:57 +0000  1640 bytes for ./GoogleSignIn.bundle/fi.lproj/GoogleSignIn.strings
+2021-10-08 04:31:57 +0000  copying file ./GoogleSignIn.bundle/id.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:31:57 +0000  1553 bytes for ./GoogleSignIn.bundle/id.lproj/GoogleSignIn.strings
+2021-10-08 04:31:57 +0000  copying file ./GoogleSignIn.bundle/nl.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:31:57 +0000  1606 bytes for ./GoogleSignIn.bundle/nl.lproj/GoogleSignIn.strings
+2021-10-08 04:31:57 +0000  copying file ./GoogleSignIn.bundle/th.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:31:57 +0000  2133 bytes for ./GoogleSignIn.bundle/th.lproj/GoogleSignIn.strings
+2021-10-08 04:31:57 +0000  copying file ./GoogleSignIn.bundle/pt.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:31:57 +0000  1608 bytes for ./GoogleSignIn.bundle/pt.lproj/GoogleSignIn.strings
+2021-10-08 04:31:57 +0000  copying file ./GoogleSignIn.bundle/google.png ... 
+2021-10-08 04:31:57 +0000  643 bytes for ./GoogleSignIn.bundle/google.png
+copying file ./GoogleSignIn.bundle/Roboto-Bold.ttf ... 
+2021-10-08 04:31:57 +0000  127744 bytes for ./GoogleSignIn.bundle/Roboto-Bold.ttf
+2021-10-08 04:31:57 +0000  copying file ./GoogleSignIn.bundle/ro.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:31:57 +0000  1598 bytes for ./GoogleSignIn.bundle/ro.lproj/GoogleSignIn.strings
+2021-10-08 04:31:57 +0000  copying file ./GoogleSignIn.bundle/Info.plist ... 
+2021-10-08 04:31:57 +0000  721 bytes for ./GoogleSignIn.bundle/Info.plist
+2021-10-08 04:31:57 +0000  copying file ./GoogleSignIn.bundle/hr.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:31:57 +0000  1621 bytes for ./GoogleSignIn.bundle/hr.lproj/GoogleSignIn.strings
+2021-10-08 04:31:57 +0000  copying file ./GoogleSignIn.bundle/hi.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:31:57 +0000  2286 bytes for ./GoogleSignIn.bundle/hi.lproj/GoogleSignIn.strings
+2021-10-08 04:31:57 +0000  copying file ./GoogleSignIn.bundle/ca.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:31:57 +0000  1669 bytes for ./GoogleSignIn.bundle/ca.lproj/GoogleSignIn.strings
+2021-10-08 04:31:57 +0000  copying file ./Assets.car ... 
+2021-10-08 04:31:57 +0000  343592 bytes for ./Assets.car
+2021-10-08 04:31:57 +0000  copying file ./main.jsbundle ... 
+2021-10-08 04:31:57 +0000  1046339 bytes for ./main.jsbundle
+2021-10-08 04:31:57 +0000  copying file ./LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2021-10-08 04:31:57 +0000  3773 bytes for ./LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2021-10-08 04:31:57 +0000  copying file ./LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2021-10-08 04:31:57 +0000  896 bytes for ./LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2021-10-08 04:31:57 +0000  copying file ./LaunchScreen.storyboardc/Info.plist ... 
+2021-10-08 04:31:57 +0000  258 bytes for ./LaunchScreen.storyboardc/Info.plist
+2021-10-08 04:31:57 +0000  copying file ./Frameworks/libswiftCoreImage.dylib ... 
+2021-10-08 04:31:57 +0000  466576 bytes for ./Frameworks/libswiftCoreImage.dylib
+2021-10-08 04:31:57 +0000  copying file ./Frameworks/libswiftObjectiveC.dylib ... 
+2021-10-08 04:31:57 +0000  679680 bytes for ./Frameworks/libswiftObjectiveC.dylib
+2021-10-08 04:31:57 +0000  copying file ./Frameworks/libswiftCore.dylib ... 
+2021-10-08 04:31:58 +0000  95497584 bytes for ./Frameworks/libswiftCore.dylib
+2021-10-08 04:31:58 +0000  copying file ./Frameworks/libswiftCoreGraphics.dylib ... 
+2021-10-08 04:31:58 +0000  2041040 bytes for ./Frameworks/libswiftCoreGraphics.dylib
+2021-10-08 04:31:58 +0000  copying file ./Frameworks/OpenSSL.framework/_CodeSignature/CodeResources ... 
+2021-10-08 04:31:58 +0000  1798 bytes for ./Frameworks/OpenSSL.framework/_CodeSignature/CodeResources
+2021-10-08 04:31:58 +0000  copying file ./Frameworks/OpenSSL.framework/OpenSSL ... 
+2021-10-08 04:31:58 +0000  10657632 bytes for ./Frameworks/OpenSSL.framework/OpenSSL
+copying file ./Frameworks/OpenSSL.framework/Info.plist ... 
+2021-10-08 04:31:58 +0000  716 bytes for ./Frameworks/OpenSSL.framework/Info.plist
+copying file ./Frameworks/libswiftUIKit.dylib ... 
+2021-10-08 04:31:58 +0000  1608800 bytes for ./Frameworks/libswiftUIKit.dylib
+2021-10-08 04:31:58 +0000  copying file ./Frameworks/libswiftMetal.dylib ... 
+2021-10-08 04:31:58 +0000  724416 bytes for ./Frameworks/libswiftMetal.dylib
+copying file ./Frameworks/libswiftDispatch.dylib ... 
+2021-10-08 04:31:59 +0000  4056912 bytes for ./Frameworks/libswiftDispatch.dylib
+copying file ./Frameworks/libswiftos.dylib ... 
+2021-10-08 04:31:59 +0000  857184 bytes for ./Frameworks/libswiftos.dylib
+2021-10-08 04:31:59 +0000  copying file ./Frameworks/libswiftCoreFoundation.dylib ... 
+2021-10-08 04:31:59 +0000  450384 bytes for ./Frameworks/libswiftCoreFoundation.dylib
+copying file ./Frameworks/libswiftDarwin.dylib ... 
+2021-10-08 04:31:59 +0000  1091440 bytes for ./Frameworks/libswiftDarwin.dylib
+2021-10-08 04:31:59 +0000  copying file ./Frameworks/libswiftQuartzCore.dylib ... 
+2021-10-08 04:31:59 +0000  486352 bytes for ./Frameworks/libswiftQuartzCore.dylib
+2021-10-08 04:31:59 +0000  copying file ./Frameworks/libswiftFoundation.dylib ... 
+2021-10-08 04:31:59 +0000  43094320 bytes for ./Frameworks/libswiftFoundation.dylib
+2021-10-08 04:31:59 +0000  copying file ./embedded.mobileprovision ... 
+2021-10-08 04:31:59 +0000  16395 bytes for ./embedded.mobileprovision
+2021-10-08 04:31:59 +0000  copying file ./Info.plist ... 
+2021-10-08 04:31:59 +0000  2954 bytes for ./Info.plist
+2021-10-08 04:31:59 +0000  copying file ./PkgInfo ... 
+2021-10-08 04:31:59 +0000  8 bytes for ./PkgInfo
+2021-10-08 04:31:59 +0000  /usr/bin/ditto exited with 0
+2021-10-08 04:31:59 +0000  Processing step: IDEDistributionEmbedProfileStep
+2021-10-08 04:31:59 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbfd1f8e9b0; bundleID='com.github.krzyzanowskim.OpenSSL', path='<DVTFilePath:0x7fbfcfaf7bd0:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/OpenSSL.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfd1f5c2b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbfb3d1b1a0; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbfb3dfefe0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.github.krzyzanowskim.OpenSSL', executablePath='<DVTFilePath:0x7fbfbaa75f20:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/OpenSSL.framework/OpenSSL'>', hardenedRuntime='0'>'>
+2021-10-08 04:31:59 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbfb3792860; bundleID='com.apple.dt.runtime.swiftCore', path='<DVTFilePath:0x7fbfcfaffb30:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfb3d7b020; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbfb3786370; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbfc0894000>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftCore', executablePath='<DVTFilePath:0x7fbfcfaffb30:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftCore.dylib'>', hardenedRuntime='0'>'>
+2021-10-08 04:31:59 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbfb543cc90; bundleID='com.apple.dt.runtime.swiftCoreFoundation', path='<DVTFilePath:0x7fbffd209dd0:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftCoreFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfd1c7f3e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc0011439a0; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbfb55bb700>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftCoreFoundation', executablePath='<DVTFilePath:0x7fbffd209dd0:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftCoreFoundation.dylib'>', hardenedRuntime='0'>'>
+2021-10-08 04:31:59 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbfd1c68f40; bundleID='com.apple.dt.runtime.swiftCoreGraphics', path='<DVTFilePath:0x7fc01b674fd0:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftCoreGraphics.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfd1ca86a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbfb3d1b1a0; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbfb3dab970>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftCoreGraphics', executablePath='<DVTFilePath:0x7fc01b674fd0:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftCoreGraphics.dylib'>', hardenedRuntime='0'>'>
+2021-10-08 04:31:59 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbfd1ca7f70; bundleID='com.apple.dt.runtime.swiftCoreImage', path='<DVTFilePath:0x7fbfbba3f130:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftCoreImage.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfd1f91fa0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbfb5609010; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbfb5606080>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftCoreImage', executablePath='<DVTFilePath:0x7fbfbba3f130:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftCoreImage.dylib'>', hardenedRuntime='0'>'>
+2021-10-08 04:31:59 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbfd1ca3770; bundleID='com.apple.dt.runtime.swiftDarwin', path='<DVTFilePath:0x7fbfbba3ff60:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftDarwin.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfd1f63cb0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbfb3d1b1a0; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbfb3dab970>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftDarwin', executablePath='<DVTFilePath:0x7fbfbba3ff60:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftDarwin.dylib'>', hardenedRuntime='0'>'>
+2021-10-08 04:31:59 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbfd1f97a90; bundleID='com.apple.dt.runtime.swiftDispatch', path='<DVTFilePath:0x7fbfcfae40b0:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftDispatch.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfb546dde0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbfb3d1b1a0; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbfb3d78a80>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftDispatch', executablePath='<DVTFilePath:0x7fbfcfae40b0:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftDispatch.dylib'>', hardenedRuntime='0'>'>
+2021-10-08 04:31:59 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbfb54ec530; bundleID='com.apple.dt.runtime.swiftFoundation', path='<DVTFilePath:0x7fbfd07d01a0:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfd1f98090; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbfb3d1b1a0; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbfb3d4a390>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftFoundation', executablePath='<DVTFilePath:0x7fbfd07d01a0:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftFoundation.dylib'>', hardenedRuntime='0'>'>
+2021-10-08 04:31:59 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbfd1f92ef0; bundleID='com.apple.dt.runtime.swiftMetal', path='<DVTFilePath:0x7fbfd1a19310:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftMetal.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfd1f99fe0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc0011439a0; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbfc08ba7c0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftMetal', executablePath='<DVTFilePath:0x7fbfd1a19310:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftMetal.dylib'>', hardenedRuntime='0'>'>
+2021-10-08 04:31:59 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbfb37926e0; bundleID='com.apple.dt.runtime.swiftObjectiveC', path='<DVTFilePath:0x7fbfd1c0a380:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftObjectiveC.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfd1f988f0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbfb3786370; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbfc0894000>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftObjectiveC', executablePath='<DVTFilePath:0x7fbfd1c0a380:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftObjectiveC.dylib'>', hardenedRuntime='0'>'>
+2021-10-08 04:31:59 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbfb544b5b0; bundleID='com.apple.dt.runtime.swiftQuartzCore', path='<DVTFilePath:0x7fbfd1aa6470:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftQuartzCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfd1c94af0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbfb3d1b1a0; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbfb3d3aba0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftQuartzCore', executablePath='<DVTFilePath:0x7fbfd1aa6470:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftQuartzCore.dylib'>', hardenedRuntime='0'>'>
+2021-10-08 04:31:59 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbfb37851b0; bundleID='com.apple.dt.runtime.swiftUIKit', path='<DVTFilePath:0x7fbfd07e0550:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftUIKit.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfd1c78cb0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbfb3786370; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbfc0881ef0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftUIKit', executablePath='<DVTFilePath:0x7fbfd07e0550:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftUIKit.dylib'>', hardenedRuntime='0'>'>
+2021-10-08 04:31:59 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbfb5448170; bundleID='com.apple.dt.runtime.swiftos', path='<DVTFilePath:0x7fbfcfae4d90:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftos.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfd1f9f010; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc0011439a0; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbfb5558320>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftos', executablePath='<DVTFilePath:0x7fbfcfae4d90:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftos.dylib'>', hardenedRuntime='0'>'>
+2021-10-08 04:31:59 +0000  Processing step: IDEDistributionInfoPlistStep
+2021-10-08 04:31:59 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2021-10-08 04:31:59 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2021-10-08 04:31:59 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2021-10-08 04:31:59 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2021-10-08 04:31:59 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2021-10-08 04:31:59 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2021-10-08 04:31:59 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2021-10-08 04:31:59 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2021-10-08 04:31:59 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2021-10-08 04:31:59 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2021-10-08 04:31:59 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2021-10-08 04:31:59 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2021-10-08 04:31:59 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2021-10-08 04:31:59 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2021-10-08 04:31:59 +0000  Processing step: IDEDistributionItemRemovalStep
+2021-10-08 04:31:59 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2021-10-08 04:31:59 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2021-10-08 04:31:59 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2021-10-08 04:31:59 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2021-10-08 04:31:59 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2021-10-08 04:31:59 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/OpenSSL.framework/OpenSSL' '-l' '-o' '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/OpenSSL.framework/OpenSSL'
+2021-10-08 04:32:00 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2021-10-08 04:32:00 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/stuff' '-l' '-o' '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/stuff'
+2021-10-08 04:32:01 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2021-10-08 04:32:01 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2021-10-08 04:32:01 +0000  The archive did not contain /Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/BCSymbolMaps/F8B1B40E-0301-3F0D-A724-8BA55DB574D2.bcsymbolmap as expected.
+2021-10-08 04:32:01 +0000  Running /usr/bin/ditto '-V' '/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/BCSymbolMaps/B7546090-C5C7-38F9-855A-F4913E3B91C9.bcsymbolmap' '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/BCSymbolMaps/B7546090-C5C7-38F9-855A-F4913E3B91C9.bcsymbolmap'
+2021-10-08 04:32:01 +0000  >>> Copying /Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/BCSymbolMaps/B7546090-C5C7-38F9-855A-F4913E3B91C9.bcsymbolmap 
+2021-10-08 04:32:01 +0000  copying file ./B7546090-C5C7-38F9-855A-F4913E3B91C9.bcsymbolmap ... 
+2021-10-08 04:32:01 +0000  3601119 bytes for ./B7546090-C5C7-38F9-855A-F4913E3B91C9.bcsymbolmap
+2021-10-08 04:32:01 +0000  /usr/bin/ditto exited with 0
+2021-10-08 04:32:01 +0000  Processing step: IDEDistributionSymbolsStep
+2021-10-08 04:32:01 +0000  Excluding symbols for OpenSSL.framework
+2021-10-08 04:32:01 +0000  Excluding symbols for libswiftCore.dylib
+2021-10-08 04:32:02 +0000  Excluding symbols for libswiftCoreFoundation.dylib
+2021-10-08 04:32:02 +0000  Excluding symbols for libswiftCoreGraphics.dylib
+2021-10-08 04:32:02 +0000  Excluding symbols for libswiftCoreImage.dylib
+2021-10-08 04:32:02 +0000  Excluding symbols for libswiftDarwin.dylib
+2021-10-08 04:32:02 +0000  Excluding symbols for libswiftDispatch.dylib
+2021-10-08 04:32:02 +0000  Excluding symbols for libswiftFoundation.dylib
+2021-10-08 04:32:02 +0000  Excluding symbols for libswiftMetal.dylib
+2021-10-08 04:32:02 +0000  Excluding symbols for libswiftObjectiveC.dylib
+2021-10-08 04:32:02 +0000  Excluding symbols for libswiftQuartzCore.dylib
+2021-10-08 04:32:02 +0000  Excluding symbols for libswiftUIKit.dylib
+2021-10-08 04:32:02 +0000  Excluding symbols for libswiftos.dylib
+2021-10-08 04:32:02 +0000  Excluding symbols for stuff.app
+2021-10-08 04:32:02 +0000  Processing step: IDEDistributionCopyAppleProvidedContentStep
+2021-10-08 04:32:02 +0000  Running /usr/bin/ditto '-V' '/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/SwiftSupport' '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/SwiftSupport'
+2021-10-08 04:32:02 +0000  >>> Copying /Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/SwiftSupport 
+2021-10-08 04:32:02 +0000  copying file ./iphoneos/libswiftCoreImage.dylib ... 
+2021-10-08 04:32:02 +0000  466448 bytes for ./iphoneos/libswiftCoreImage.dylib
+2021-10-08 04:32:02 +0000  copying file ./iphoneos/libswiftObjectiveC.dylib ... 
+2021-10-08 04:32:02 +0000  679568 bytes for ./iphoneos/libswiftObjectiveC.dylib
+2021-10-08 04:32:02 +0000  copying file ./iphoneos/libswiftCore.dylib ... 
+2021-10-08 04:32:04 +0000  95497472 bytes for ./iphoneos/libswiftCore.dylib
+2021-10-08 04:32:04 +0000  copying file ./iphoneos/libswiftCoreGraphics.dylib ... 
+2021-10-08 04:32:04 +0000  2040928 bytes for ./iphoneos/libswiftCoreGraphics.dylib
+copying file ./iphoneos/libswiftUIKit.dylib ... 
+2021-10-08 04:32:04 +0000  1608688 bytes for ./iphoneos/libswiftUIKit.dylib
+2021-10-08 04:32:04 +0000  copying file ./iphoneos/libswiftMetal.dylib ... 
+2021-10-08 04:32:04 +0000  724304 bytes for ./iphoneos/libswiftMetal.dylib
+2021-10-08 04:32:04 +0000  copying file ./iphoneos/libswiftDispatch.dylib ... 
+2021-10-08 04:32:04 +0000  4056784 bytes for ./iphoneos/libswiftDispatch.dylib
+2021-10-08 04:32:04 +0000  copying file ./iphoneos/libswiftos.dylib ... 
+2021-10-08 04:32:04 +0000  857072 bytes for ./iphoneos/libswiftos.dylib
+2021-10-08 04:32:04 +0000  copying file ./iphoneos/libswiftCoreFoundation.dylib ... 
+2021-10-08 04:32:04 +0000  450272 bytes for ./iphoneos/libswiftCoreFoundation.dylib
+2021-10-08 04:32:04 +0000  copying file ./iphoneos/libswiftDarwin.dylib ... 
+2021-10-08 04:32:04 +0000  1091328 bytes for ./iphoneos/libswiftDarwin.dylib
+2021-10-08 04:32:04 +0000  copying file ./iphoneos/libswiftQuartzCore.dylib ... 
+2021-10-08 04:32:04 +0000  486224 bytes for ./iphoneos/libswiftQuartzCore.dylib
+2021-10-08 04:32:04 +0000  copying file ./iphoneos/libswiftFoundation.dylib ... 
+2021-10-08 04:32:04 +0000  43094208 bytes for ./iphoneos/libswiftFoundation.dylib
+2021-10-08 04:32:04 +0000  /usr/bin/ditto exited with 0
+2021-10-08 04:32:04 +0000  Processing step: IDEDistributionAppThinningStep
+2021-10-08 04:32:04 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2021-10-08 04:32:04 +0000  Processing step: IDEDistributionArchThinningStep
+2021-10-08 04:32:04 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/OpenSSL.framework/OpenSSL' '-verify_arch' 'arm64e'
+2021-10-08 04:32:04 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2021-10-08 04:32:04 +0000  Skipping architecture thinning for item "OpenSSL" because arch "arm64e" wasn't found
+2021-10-08 04:32:04 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftCore.dylib' '-verify_arch' 'arm64e'
+2021-10-08 04:32:04 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2021-10-08 04:32:04 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftCore.dylib' '-remove' 'arm64e' '-output' '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftCore.dylib'
+2021-10-08 04:32:06 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2021-10-08 04:32:06 +0000  Successfully thinned item "libswiftCore.dylib", arch "arm64e"
+2021-10-08 04:32:06 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftCoreFoundation.dylib' '-verify_arch' 'arm64e'
+2021-10-08 04:32:06 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2021-10-08 04:32:06 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftCoreFoundation.dylib' '-remove' 'arm64e' '-output' '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftCoreFoundation.dylib'
+2021-10-08 04:32:06 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2021-10-08 04:32:06 +0000  Successfully thinned item "libswiftCoreFoundation.dylib", arch "arm64e"
+2021-10-08 04:32:06 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftCoreGraphics.dylib' '-verify_arch' 'arm64e'
+2021-10-08 04:32:06 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2021-10-08 04:32:06 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftCoreGraphics.dylib' '-remove' 'arm64e' '-output' '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftCoreGraphics.dylib'
+2021-10-08 04:32:06 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2021-10-08 04:32:06 +0000  Successfully thinned item "libswiftCoreGraphics.dylib", arch "arm64e"
+2021-10-08 04:32:06 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftCoreImage.dylib' '-verify_arch' 'arm64e'
+2021-10-08 04:32:06 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2021-10-08 04:32:06 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftCoreImage.dylib' '-remove' 'arm64e' '-output' '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftCoreImage.dylib'
+2021-10-08 04:32:06 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2021-10-08 04:32:06 +0000  Successfully thinned item "libswiftCoreImage.dylib", arch "arm64e"
+2021-10-08 04:32:06 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftDarwin.dylib' '-verify_arch' 'arm64e'
+2021-10-08 04:32:06 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2021-10-08 04:32:06 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftDarwin.dylib' '-remove' 'arm64e' '-output' '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftDarwin.dylib'
+2021-10-08 04:32:06 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2021-10-08 04:32:06 +0000  Successfully thinned item "libswiftDarwin.dylib", arch "arm64e"
+2021-10-08 04:32:06 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftDispatch.dylib' '-verify_arch' 'arm64e'
+2021-10-08 04:32:06 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2021-10-08 04:32:06 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftDispatch.dylib' '-remove' 'arm64e' '-output' '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftDispatch.dylib'
+2021-10-08 04:32:06 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2021-10-08 04:32:06 +0000  Successfully thinned item "libswiftDispatch.dylib", arch "arm64e"
+2021-10-08 04:32:06 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftFoundation.dylib' '-verify_arch' 'arm64e'
+2021-10-08 04:32:06 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2021-10-08 04:32:06 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftFoundation.dylib' '-remove' 'arm64e' '-output' '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftFoundation.dylib'
+2021-10-08 04:32:07 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2021-10-08 04:32:07 +0000  Successfully thinned item "libswiftFoundation.dylib", arch "arm64e"
+2021-10-08 04:32:07 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftMetal.dylib' '-verify_arch' 'arm64e'
+2021-10-08 04:32:07 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2021-10-08 04:32:07 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftMetal.dylib' '-remove' 'arm64e' '-output' '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftMetal.dylib'
+2021-10-08 04:32:07 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2021-10-08 04:32:07 +0000  Successfully thinned item "libswiftMetal.dylib", arch "arm64e"
+2021-10-08 04:32:07 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftObjectiveC.dylib' '-verify_arch' 'arm64e'
+2021-10-08 04:32:07 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2021-10-08 04:32:07 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftObjectiveC.dylib' '-remove' 'arm64e' '-output' '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftObjectiveC.dylib'
+2021-10-08 04:32:07 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2021-10-08 04:32:07 +0000  Successfully thinned item "libswiftObjectiveC.dylib", arch "arm64e"
+2021-10-08 04:32:07 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftQuartzCore.dylib' '-verify_arch' 'arm64e'
+2021-10-08 04:32:07 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2021-10-08 04:32:07 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftQuartzCore.dylib' '-remove' 'arm64e' '-output' '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftQuartzCore.dylib'
+2021-10-08 04:32:07 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2021-10-08 04:32:07 +0000  Successfully thinned item "libswiftQuartzCore.dylib", arch "arm64e"
+2021-10-08 04:32:07 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftUIKit.dylib' '-verify_arch' 'arm64e'
+2021-10-08 04:32:07 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2021-10-08 04:32:07 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftUIKit.dylib' '-remove' 'arm64e' '-output' '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftUIKit.dylib'
+2021-10-08 04:32:07 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2021-10-08 04:32:07 +0000  Successfully thinned item "libswiftUIKit.dylib", arch "arm64e"
+2021-10-08 04:32:07 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftos.dylib' '-verify_arch' 'arm64e'
+2021-10-08 04:32:07 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2021-10-08 04:32:07 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftos.dylib' '-remove' 'arm64e' '-output' '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftos.dylib'
+2021-10-08 04:32:07 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2021-10-08 04:32:07 +0000  Successfully thinned item "libswiftos.dylib", arch "arm64e"
+2021-10-08 04:32:07 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/stuff' '-verify_arch' 'arm64e'
+2021-10-08 04:32:07 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2021-10-08 04:32:07 +0000  Skipping architecture thinning for item "stuff" because arch "arm64e" wasn't found
+2021-10-08 04:32:07 +0000  Processing step: IDEDistributionODRStep
+2021-10-08 04:32:07 +0000  Processing step: IDEDistributionStripXattrsStep
+2021-10-08 04:32:07 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbfd1f8e9b0; bundleID='com.github.krzyzanowskim.OpenSSL', path='<DVTFilePath:0x7fbfcfaf7bd0:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/OpenSSL.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfd1f5c2b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbfb568c5a0; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fc020c85800>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.github.krzyzanowskim.OpenSSL', executablePath='<DVTFilePath:0x7fbfbaa75f20:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/OpenSSL.framework/OpenSSL'>', hardenedRuntime='0'>'>
+2021-10-08 04:32:07 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbfb3792860; bundleID='com.apple.dt.runtime.swiftCore', path='<DVTFilePath:0x7fbfcfaffb30:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfb3d7b020; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbfb370f470; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbfb37a24d0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftCore', executablePath='<DVTFilePath:0x7fbfcfaffb30:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftCore.dylib'>', hardenedRuntime='0'>'>
+2021-10-08 04:32:07 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbfb543cc90; bundleID='com.apple.dt.runtime.swiftCoreFoundation', path='<DVTFilePath:0x7fbffd209dd0:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftCoreFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfd1c7f3e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbfb568c5a0; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbffdb7ea70>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftCoreFoundation', executablePath='<DVTFilePath:0x7fbffd209dd0:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftCoreFoundation.dylib'>', hardenedRuntime='0'>'>
+2021-10-08 04:32:07 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbfd1c68f40; bundleID='com.apple.dt.runtime.swiftCoreGraphics', path='<DVTFilePath:0x7fc01b674fd0:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftCoreGraphics.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfd1ca86a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbfb568c5a0; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fc020c85800>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftCoreGraphics', executablePath='<DVTFilePath:0x7fc01b674fd0:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftCoreGraphics.dylib'>', hardenedRuntime='0'>'>
+2021-10-08 04:32:07 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbfd1ca7f70; bundleID='com.apple.dt.runtime.swiftCoreImage', path='<DVTFilePath:0x7fbfbba3f130:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftCoreImage.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfd1f91fa0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbfb568c5a0; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fc035068140>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftCoreImage', executablePath='<DVTFilePath:0x7fbfbba3f130:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftCoreImage.dylib'>', hardenedRuntime='0'>'>
+2021-10-08 04:32:07 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbfd1ca3770; bundleID='com.apple.dt.runtime.swiftDarwin', path='<DVTFilePath:0x7fbfbba3ff60:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftDarwin.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfd1f63cb0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbfb568c5a0; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fc0399f7550>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftDarwin', executablePath='<DVTFilePath:0x7fbfbba3ff60:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftDarwin.dylib'>', hardenedRuntime='0'>'>
+2021-10-08 04:32:07 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbfd1f97a90; bundleID='com.apple.dt.runtime.swiftDispatch', path='<DVTFilePath:0x7fbfcfae40b0:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftDispatch.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfb546dde0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc0011439a0; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbfb55a3b80>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftDispatch', executablePath='<DVTFilePath:0x7fbfcfae40b0:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftDispatch.dylib'>', hardenedRuntime='0'>'>
+2021-10-08 04:32:07 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbfb54ec530; bundleID='com.apple.dt.runtime.swiftFoundation', path='<DVTFilePath:0x7fbfd07d01a0:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfd1f98090; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbfb3dbe6e0; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbfb3d66a90>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftFoundation', executablePath='<DVTFilePath:0x7fbfd07d01a0:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftFoundation.dylib'>', hardenedRuntime='0'>'>
+2021-10-08 04:32:07 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbfd1f92ef0; bundleID='com.apple.dt.runtime.swiftMetal', path='<DVTFilePath:0x7fbfd1a19310:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftMetal.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfd1f99fe0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbfb3dbe6e0; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbfb3de5cb0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftMetal', executablePath='<DVTFilePath:0x7fbfd1a19310:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftMetal.dylib'>', hardenedRuntime='0'>'>
+2021-10-08 04:32:07 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbfb37926e0; bundleID='com.apple.dt.runtime.swiftObjectiveC', path='<DVTFilePath:0x7fbfd1c0a380:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftObjectiveC.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfd1f988f0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbfb3dbe6e0; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbfb3d63aa0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftObjectiveC', executablePath='<DVTFilePath:0x7fbfd1c0a380:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftObjectiveC.dylib'>', hardenedRuntime='0'>'>
+2021-10-08 04:32:07 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbfb544b5b0; bundleID='com.apple.dt.runtime.swiftQuartzCore', path='<DVTFilePath:0x7fbfd1aa6470:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftQuartzCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfd1c94af0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbfb568c5a0; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fc035068140>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftQuartzCore', executablePath='<DVTFilePath:0x7fbfd1aa6470:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftQuartzCore.dylib'>', hardenedRuntime='0'>'>
+2021-10-08 04:32:07 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbfb37851b0; bundleID='com.apple.dt.runtime.swiftUIKit', path='<DVTFilePath:0x7fbfd07e0550:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftUIKit.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfd1c78cb0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbfb3dbe6e0; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbfb3d66a90>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftUIKit', executablePath='<DVTFilePath:0x7fbfd07e0550:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftUIKit.dylib'>', hardenedRuntime='0'>'>
+2021-10-08 04:32:07 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbfb5448170; bundleID='com.apple.dt.runtime.swiftos', path='<DVTFilePath:0x7fbfcfae4d90:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftos.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfd1f9f010; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbfb568c5a0; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fc039813030>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftos', executablePath='<DVTFilePath:0x7fbfcfae4d90:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftos.dylib'>', hardenedRuntime='0'>'>
+2021-10-08 04:32:07 +0000  Running /usr/bin/xattr '-crs' '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app'
+2021-10-08 04:32:08 +0000  /usr/bin/xattr exited with 0
+2021-10-08 04:32:08 +0000  Processing step: IDEDistributionCodesignStep
+2021-10-08 04:32:08 +0000  Entitlements for <IDEDistributionItem: 0x7fbfd1f8e9b0; bundleID='com.github.krzyzanowskim.OpenSSL', path='<DVTFilePath:0x7fbfcfaf7bd0:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/OpenSSL.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfd1f5c2b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbfb3dbe6e0; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbfb3d8dba0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.github.krzyzanowskim.OpenSSL', executablePath='<DVTFilePath:0x7fbfbaa75f20:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/OpenSSL.framework/OpenSSL'>', hardenedRuntime='0'>'>: {
+}
+2021-10-08 04:32:08 +0000  Entitlements for <IDEDistributionItem: 0x7fbfd1f8e9b0; bundleID='com.github.krzyzanowskim.OpenSSL', path='<DVTFilePath:0x7fbfcfaf7bd0:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/OpenSSL.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfd1f5c2b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc0011439a0; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbfb55605f0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.github.krzyzanowskim.OpenSSL', executablePath='<DVTFilePath:0x7fbfbaa75f20:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/OpenSSL.framework/OpenSSL'>', hardenedRuntime='0'>'> are: {
+}
+2021-10-08 04:32:08 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbfd1f8e9b0; bundleID='com.github.krzyzanowskim.OpenSSL', path='<DVTFilePath:0x7fbfcfaf7bd0:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/OpenSSL.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfd1f5c2b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbfb568c5a0; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fc035261950>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.github.krzyzanowskim.OpenSSL', executablePath='<DVTFilePath:0x7fbfbaa75f20:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/OpenSSL.framework/OpenSSL'>', hardenedRuntime='0'>'> to: /var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/entitlements~~~F4ImMj
+2021-10-08 04:32:08 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '7FC766C719C1459D6B1CA6AD3068221C5464013B' '--entitlements' '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/entitlements~~~F4ImMj' '--preserve-metadata=identifier,flags,runtime' '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/OpenSSL.framework'
+2021-10-08 04:32:09 +0000  /var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/OpenSSL.framework: signed bundle with Mach-O universal (arm64) [com.github.krzyzanowskim.OpenSSL]
+2021-10-08 04:32:09 +0000  /usr/bin/codesign exited with 0
+2021-10-08 04:32:09 +0000  Entitlements for <IDEDistributionItem: 0x7fbfb3792860; bundleID='com.apple.dt.runtime.swiftCore', path='<DVTFilePath:0x7fbfcfaffb30:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfb3d7b020; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbfb37b2380; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbfb37baff0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftCore', executablePath='<DVTFilePath:0x7fbfcfaffb30:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftCore.dylib'>', hardenedRuntime='0'>'>: {
+}
+2021-10-08 04:32:09 +0000  Entitlements for <IDEDistributionItem: 0x7fbfb3792860; bundleID='com.apple.dt.runtime.swiftCore', path='<DVTFilePath:0x7fbfcfaffb30:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfb3d7b020; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbfb3dbe6e0; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbfb3d74680>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftCore', executablePath='<DVTFilePath:0x7fbfcfaffb30:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftCore.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2021-10-08 04:32:09 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbfb3792860; bundleID='com.apple.dt.runtime.swiftCore', path='<DVTFilePath:0x7fbfcfaffb30:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfb3d7b020; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbfb3d1b1a0; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbfb3d82ea0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftCore', executablePath='<DVTFilePath:0x7fbfcfaffb30:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftCore.dylib'>', hardenedRuntime='0'>'> to: /var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/entitlements~~~uAgvoe
+2021-10-08 04:32:09 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '7FC766C719C1459D6B1CA6AD3068221C5464013B' '--entitlements' '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/entitlements~~~uAgvoe' '--preserve-metadata=identifier,flags,runtime' '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftCore.dylib'
+2021-10-08 04:32:09 +0000  /var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftCore.dylib: replacing existing signature
+2021-10-08 04:32:09 +0000  
+2021-10-08 04:32:12 +0000  /var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCore]
+2021-10-08 04:32:12 +0000  /usr/bin/codesign exited with 0
+2021-10-08 04:32:12 +0000  Entitlements for <IDEDistributionItem: 0x7fbfb543cc90; bundleID='com.apple.dt.runtime.swiftCoreFoundation', path='<DVTFilePath:0x7fbffd209dd0:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftCoreFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfd1c7f3e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbfb3dbe6e0; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbfb3d6d310>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftCoreFoundation', executablePath='<DVTFilePath:0x7fbffd209dd0:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftCoreFoundation.dylib'>', hardenedRuntime='0'>'>: {
+}
+2021-10-08 04:32:12 +0000  Entitlements for <IDEDistributionItem: 0x7fbfb543cc90; bundleID='com.apple.dt.runtime.swiftCoreFoundation', path='<DVTFilePath:0x7fbffd209dd0:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftCoreFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfd1c7f3e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbfb3d1b1a0; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbfb3defc00>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftCoreFoundation', executablePath='<DVTFilePath:0x7fbffd209dd0:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftCoreFoundation.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2021-10-08 04:32:12 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbfb543cc90; bundleID='com.apple.dt.runtime.swiftCoreFoundation', path='<DVTFilePath:0x7fbffd209dd0:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftCoreFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfd1c7f3e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbfb568c5a0; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbfb566faf0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftCoreFoundation', executablePath='<DVTFilePath:0x7fbffd209dd0:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftCoreFoundation.dylib'>', hardenedRuntime='0'>'> to: /var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/entitlements~~~1q2nEp
+2021-10-08 04:32:12 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '7FC766C719C1459D6B1CA6AD3068221C5464013B' '--entitlements' '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/entitlements~~~1q2nEp' '--preserve-metadata=identifier,flags,runtime' '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftCoreFoundation.dylib'
+2021-10-08 04:32:12 +0000  /var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftCoreFoundation.dylib: replacing existing signature
+2021-10-08 04:32:12 +0000  /var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftCoreFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreFoundation]
+2021-10-08 04:32:12 +0000  /usr/bin/codesign exited with 0
+2021-10-08 04:32:12 +0000  Entitlements for <IDEDistributionItem: 0x7fbfd1c68f40; bundleID='com.apple.dt.runtime.swiftCoreGraphics', path='<DVTFilePath:0x7fc01b674fd0:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftCoreGraphics.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfd1ca86a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbfb568c5a0; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fc01d1138b0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftCoreGraphics', executablePath='<DVTFilePath:0x7fc01b674fd0:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftCoreGraphics.dylib'>', hardenedRuntime='0'>'>: {
+}
+2021-10-08 04:32:12 +0000  Entitlements for <IDEDistributionItem: 0x7fbfd1c68f40; bundleID='com.apple.dt.runtime.swiftCoreGraphics', path='<DVTFilePath:0x7fc01b674fd0:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftCoreGraphics.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfd1ca86a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbfab9052f0; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbffc185c20>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftCoreGraphics', executablePath='<DVTFilePath:0x7fc01b674fd0:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftCoreGraphics.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2021-10-08 04:32:12 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbfd1c68f40; bundleID='com.apple.dt.runtime.swiftCoreGraphics', path='<DVTFilePath:0x7fc01b674fd0:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftCoreGraphics.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfd1ca86a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbfc304f350; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fc01d145a90>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftCoreGraphics', executablePath='<DVTFilePath:0x7fc01b674fd0:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftCoreGraphics.dylib'>', hardenedRuntime='0'>'> to: /var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/entitlements~~~zStsNg
+2021-10-08 04:32:12 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '7FC766C719C1459D6B1CA6AD3068221C5464013B' '--entitlements' '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/entitlements~~~zStsNg' '--preserve-metadata=identifier,flags,runtime' '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftCoreGraphics.dylib'
+2021-10-08 04:32:12 +0000  /var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftCoreGraphics.dylib: replacing existing signature
+2021-10-08 04:32:12 +0000  /var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftCoreGraphics.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreGraphics]
+2021-10-08 04:32:12 +0000  /usr/bin/codesign exited with 0
+2021-10-08 04:32:13 +0000  Entitlements for <IDEDistributionItem: 0x7fbfd1ca7f70; bundleID='com.apple.dt.runtime.swiftCoreImage', path='<DVTFilePath:0x7fbfbba3f130:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftCoreImage.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfd1f91fa0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbfb3dbe6e0; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbfb3d78a00>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftCoreImage', executablePath='<DVTFilePath:0x7fbfbba3f130:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftCoreImage.dylib'>', hardenedRuntime='0'>'>: {
+}
+2021-10-08 04:32:13 +0000  Entitlements for <IDEDistributionItem: 0x7fbfd1ca7f70; bundleID='com.apple.dt.runtime.swiftCoreImage', path='<DVTFilePath:0x7fbfbba3f130:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftCoreImage.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfd1f91fa0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbfb3d4a8b0; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbfb3da6720>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftCoreImage', executablePath='<DVTFilePath:0x7fbfbba3f130:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftCoreImage.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2021-10-08 04:32:13 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbfd1ca7f70; bundleID='com.apple.dt.runtime.swiftCoreImage', path='<DVTFilePath:0x7fbfbba3f130:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftCoreImage.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfd1f91fa0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc0011439a0; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbfb5550090>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftCoreImage', executablePath='<DVTFilePath:0x7fbfbba3f130:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftCoreImage.dylib'>', hardenedRuntime='0'>'> to: /var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/entitlements~~~1ZWpU0
+2021-10-08 04:32:13 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '7FC766C719C1459D6B1CA6AD3068221C5464013B' '--entitlements' '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/entitlements~~~1ZWpU0' '--preserve-metadata=identifier,flags,runtime' '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftCoreImage.dylib'
+2021-10-08 04:32:13 +0000  /var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftCoreImage.dylib: replacing existing signature
+2021-10-08 04:32:13 +0000  /var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftCoreImage.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreImage]
+2021-10-08 04:32:13 +0000  
+2021-10-08 04:32:13 +0000  /usr/bin/codesign exited with 0
+2021-10-08 04:32:13 +0000  Entitlements for <IDEDistributionItem: 0x7fbfd1ca3770; bundleID='com.apple.dt.runtime.swiftDarwin', path='<DVTFilePath:0x7fbfbba3ff60:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftDarwin.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfd1f63cb0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc0011439a0; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbfb5570050>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftDarwin', executablePath='<DVTFilePath:0x7fbfbba3ff60:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftDarwin.dylib'>', hardenedRuntime='0'>'>: {
+}
+2021-10-08 04:32:13 +0000  Entitlements for <IDEDistributionItem: 0x7fbfd1ca3770; bundleID='com.apple.dt.runtime.swiftDarwin', path='<DVTFilePath:0x7fbfbba3ff60:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftDarwin.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfd1f63cb0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbffcc5a0c0; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbfb5568050>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftDarwin', executablePath='<DVTFilePath:0x7fbfbba3ff60:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftDarwin.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2021-10-08 04:32:13 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbfd1ca3770; bundleID='com.apple.dt.runtime.swiftDarwin', path='<DVTFilePath:0x7fbfbba3ff60:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftDarwin.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfd1f63cb0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbfb3dbe6e0; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbfb3d63aa0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftDarwin', executablePath='<DVTFilePath:0x7fbfbba3ff60:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftDarwin.dylib'>', hardenedRuntime='0'>'> to: /var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/entitlements~~~GDBuTi
+2021-10-08 04:32:13 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '7FC766C719C1459D6B1CA6AD3068221C5464013B' '--entitlements' '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/entitlements~~~GDBuTi' '--preserve-metadata=identifier,flags,runtime' '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftDarwin.dylib'
+2021-10-08 04:32:13 +0000  /var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftDarwin.dylib: replacing existing signature
+2021-10-08 04:32:13 +0000  /var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftDarwin.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDarwin]
+2021-10-08 04:32:13 +0000  /usr/bin/codesign exited with 0
+2021-10-08 04:32:13 +0000  Entitlements for <IDEDistributionItem: 0x7fbfd1f97a90; bundleID='com.apple.dt.runtime.swiftDispatch', path='<DVTFilePath:0x7fbfcfae40b0:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftDispatch.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfb546dde0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbfb3dbe6e0; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbfb3de24b0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftDispatch', executablePath='<DVTFilePath:0x7fbfcfae40b0:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftDispatch.dylib'>', hardenedRuntime='0'>'>: {
+}
+2021-10-08 04:32:13 +0000  Entitlements for <IDEDistributionItem: 0x7fbfd1f97a90; bundleID='com.apple.dt.runtime.swiftDispatch', path='<DVTFilePath:0x7fbfcfae40b0:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftDispatch.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfb546dde0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc0011439a0; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbfb55a24c0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftDispatch', executablePath='<DVTFilePath:0x7fbfcfae40b0:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftDispatch.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2021-10-08 04:32:13 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbfd1f97a90; bundleID='com.apple.dt.runtime.swiftDispatch', path='<DVTFilePath:0x7fbfcfae40b0:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftDispatch.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfb546dde0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbfb3795d10; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbfc0872610>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftDispatch', executablePath='<DVTFilePath:0x7fbfcfae40b0:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftDispatch.dylib'>', hardenedRuntime='0'>'> to: /var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/entitlements~~~3MhcAs
+2021-10-08 04:32:13 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '7FC766C719C1459D6B1CA6AD3068221C5464013B' '--entitlements' '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/entitlements~~~3MhcAs' '--preserve-metadata=identifier,flags,runtime' '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftDispatch.dylib'
+2021-10-08 04:32:13 +0000  /var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftDispatch.dylib: replacing existing signature
+2021-10-08 04:32:13 +0000  /var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftDispatch.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDispatch]
+2021-10-08 04:32:13 +0000  /usr/bin/codesign exited with 0
+2021-10-08 04:32:13 +0000  Entitlements for <IDEDistributionItem: 0x7fbfb54ec530; bundleID='com.apple.dt.runtime.swiftFoundation', path='<DVTFilePath:0x7fbfd07d01a0:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfd1f98090; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc0011439a0; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbfb55ec2e0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftFoundation', executablePath='<DVTFilePath:0x7fbfd07d01a0:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftFoundation.dylib'>', hardenedRuntime='0'>'>: {
+}
+2021-10-08 04:32:13 +0000  Entitlements for <IDEDistributionItem: 0x7fbfb54ec530; bundleID='com.apple.dt.runtime.swiftFoundation', path='<DVTFilePath:0x7fbfd07d01a0:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfd1f98090; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbfb3dbe6e0; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbffc185c20>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftFoundation', executablePath='<DVTFilePath:0x7fbfd07d01a0:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftFoundation.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2021-10-08 04:32:13 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbfb54ec530; bundleID='com.apple.dt.runtime.swiftFoundation', path='<DVTFilePath:0x7fbfd07d01a0:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfd1f98090; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbfb37b9b60; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbfb37ca2a0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftFoundation', executablePath='<DVTFilePath:0x7fbfd07d01a0:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftFoundation.dylib'>', hardenedRuntime='0'>'> to: /var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/entitlements~~~ZMALbG
+2021-10-08 04:32:13 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '7FC766C719C1459D6B1CA6AD3068221C5464013B' '--entitlements' '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/entitlements~~~ZMALbG' '--preserve-metadata=identifier,flags,runtime' '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftFoundation.dylib'
+2021-10-08 04:32:13 +0000  /var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftFoundation.dylib: replacing existing signature
+2021-10-08 04:32:14 +0000  /var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftFoundation]
+2021-10-08 04:32:14 +0000  /usr/bin/codesign exited with 0
+2021-10-08 04:32:14 +0000  Entitlements for <IDEDistributionItem: 0x7fbfd1f92ef0; bundleID='com.apple.dt.runtime.swiftMetal', path='<DVTFilePath:0x7fbfd1a19310:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftMetal.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfd1f99fe0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbfb3795d10; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbfb37b2d40>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftMetal', executablePath='<DVTFilePath:0x7fbfd1a19310:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftMetal.dylib'>', hardenedRuntime='0'>'>: {
+}
+2021-10-08 04:32:14 +0000  Entitlements for <IDEDistributionItem: 0x7fbfd1f92ef0; bundleID='com.apple.dt.runtime.swiftMetal', path='<DVTFilePath:0x7fbfd1a19310:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftMetal.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfd1f99fe0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbfb568c5a0; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbfb5640e30>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftMetal', executablePath='<DVTFilePath:0x7fbfd1a19310:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftMetal.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2021-10-08 04:32:14 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbfd1f92ef0; bundleID='com.apple.dt.runtime.swiftMetal', path='<DVTFilePath:0x7fbfd1a19310:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftMetal.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfd1f99fe0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc0011439a0; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbfb5550090>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftMetal', executablePath='<DVTFilePath:0x7fbfd1a19310:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftMetal.dylib'>', hardenedRuntime='0'>'> to: /var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/entitlements~~~s7Re8l
+2021-10-08 04:32:14 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '7FC766C719C1459D6B1CA6AD3068221C5464013B' '--entitlements' '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/entitlements~~~s7Re8l' '--preserve-metadata=identifier,flags,runtime' '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftMetal.dylib'
+2021-10-08 04:32:14 +0000  /var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftMetal.dylib: replacing existing signature
+2021-10-08 04:32:14 +0000  /var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftMetal.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftMetal]
+2021-10-08 04:32:14 +0000  /usr/bin/codesign exited with 0
+2021-10-08 04:32:14 +0000  Entitlements for <IDEDistributionItem: 0x7fbfb37926e0; bundleID='com.apple.dt.runtime.swiftObjectiveC', path='<DVTFilePath:0x7fbfd1c0a380:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftObjectiveC.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfd1f988f0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbfb5609010; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbfac626350>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftObjectiveC', executablePath='<DVTFilePath:0x7fbfd1c0a380:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftObjectiveC.dylib'>', hardenedRuntime='0'>'>: {
+}
+2021-10-08 04:32:14 +0000  Entitlements for <IDEDistributionItem: 0x7fbfb37926e0; bundleID='com.apple.dt.runtime.swiftObjectiveC', path='<DVTFilePath:0x7fbfd1c0a380:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftObjectiveC.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfd1f988f0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbfb568c5a0; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbfb5551010>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftObjectiveC', executablePath='<DVTFilePath:0x7fbfd1c0a380:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftObjectiveC.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2021-10-08 04:32:14 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbfb37926e0; bundleID='com.apple.dt.runtime.swiftObjectiveC', path='<DVTFilePath:0x7fbfd1c0a380:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftObjectiveC.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfd1f988f0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbfab96d0f0; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fc0202ac320>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftObjectiveC', executablePath='<DVTFilePath:0x7fbfd1c0a380:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftObjectiveC.dylib'>', hardenedRuntime='0'>'> to: /var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/entitlements~~~2bLZe0
+2021-10-08 04:32:14 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '7FC766C719C1459D6B1CA6AD3068221C5464013B' '--entitlements' '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/entitlements~~~2bLZe0' '--preserve-metadata=identifier,flags,runtime' '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftObjectiveC.dylib'
+2021-10-08 04:32:14 +0000  /var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftObjectiveC.dylib: replacing existing signature
+2021-10-08 04:32:14 +0000  /var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftObjectiveC.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftObjectiveC]
+2021-10-08 04:32:14 +0000  /usr/bin/codesign exited with 0
+2021-10-08 04:32:14 +0000  Entitlements for <IDEDistributionItem: 0x7fbfb544b5b0; bundleID='com.apple.dt.runtime.swiftQuartzCore', path='<DVTFilePath:0x7fbfd1aa6470:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftQuartzCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfd1c94af0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbfb3795d10; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbfb3790e00>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftQuartzCore', executablePath='<DVTFilePath:0x7fbfd1aa6470:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftQuartzCore.dylib'>', hardenedRuntime='0'>'>: {
+}
+2021-10-08 04:32:14 +0000  Entitlements for <IDEDistributionItem: 0x7fbfb544b5b0; bundleID='com.apple.dt.runtime.swiftQuartzCore', path='<DVTFilePath:0x7fbfd1aa6470:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftQuartzCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfd1c94af0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbfb568c5a0; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbffc185c20>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftQuartzCore', executablePath='<DVTFilePath:0x7fbfd1aa6470:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftQuartzCore.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2021-10-08 04:32:14 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbfb544b5b0; bundleID='com.apple.dt.runtime.swiftQuartzCore', path='<DVTFilePath:0x7fbfd1aa6470:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftQuartzCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfd1c94af0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbfab96d0f0; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fc0202b6fd0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftQuartzCore', executablePath='<DVTFilePath:0x7fbfd1aa6470:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftQuartzCore.dylib'>', hardenedRuntime='0'>'> to: /var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/entitlements~~~0WZ4mg
+2021-10-08 04:32:14 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '7FC766C719C1459D6B1CA6AD3068221C5464013B' '--entitlements' '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/entitlements~~~0WZ4mg' '--preserve-metadata=identifier,flags,runtime' '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftQuartzCore.dylib'
+2021-10-08 04:32:14 +0000  /var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftQuartzCore.dylib: replacing existing signature
+2021-10-08 04:32:15 +0000  /var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftQuartzCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftQuartzCore]
+2021-10-08 04:32:15 +0000  
+2021-10-08 04:32:15 +0000  /usr/bin/codesign exited with 0
+2021-10-08 04:32:15 +0000  Entitlements for <IDEDistributionItem: 0x7fbfb37851b0; bundleID='com.apple.dt.runtime.swiftUIKit', path='<DVTFilePath:0x7fbfd07e0550:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftUIKit.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfd1c78cb0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbfb3795d10; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbfb567e200>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftUIKit', executablePath='<DVTFilePath:0x7fbfd07e0550:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftUIKit.dylib'>', hardenedRuntime='0'>'>: {
+}
+2021-10-08 04:32:15 +0000  Entitlements for <IDEDistributionItem: 0x7fbfb37851b0; bundleID='com.apple.dt.runtime.swiftUIKit', path='<DVTFilePath:0x7fbfd07e0550:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftUIKit.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfd1c78cb0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbfab9052f0; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbfb3795dc0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftUIKit', executablePath='<DVTFilePath:0x7fbfd07e0550:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftUIKit.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2021-10-08 04:32:15 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbfb37851b0; bundleID='com.apple.dt.runtime.swiftUIKit', path='<DVTFilePath:0x7fbfd07e0550:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftUIKit.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfd1c78cb0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbfb3dbe6e0; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbfb3d63aa0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftUIKit', executablePath='<DVTFilePath:0x7fbfd07e0550:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftUIKit.dylib'>', hardenedRuntime='0'>'> to: /var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/entitlements~~~5mVz5p
+2021-10-08 04:32:15 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '7FC766C719C1459D6B1CA6AD3068221C5464013B' '--entitlements' '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/entitlements~~~5mVz5p' '--preserve-metadata=identifier,flags,runtime' '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftUIKit.dylib'
+2021-10-08 04:32:15 +0000  /var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftUIKit.dylib: replacing existing signature
+2021-10-08 04:32:15 +0000  /var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftUIKit.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftUIKit]
+2021-10-08 04:32:15 +0000  /usr/bin/codesign exited with 0
+2021-10-08 04:32:15 +0000  Entitlements for <IDEDistributionItem: 0x7fbfb5448170; bundleID='com.apple.dt.runtime.swiftos', path='<DVTFilePath:0x7fbfcfae4d90:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftos.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfd1f9f010; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc0011439a0; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbfb5568050>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftos', executablePath='<DVTFilePath:0x7fbfcfae4d90:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftos.dylib'>', hardenedRuntime='0'>'>: {
+}
+2021-10-08 04:32:15 +0000  Entitlements for <IDEDistributionItem: 0x7fbfb5448170; bundleID='com.apple.dt.runtime.swiftos', path='<DVTFilePath:0x7fbfcfae4d90:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftos.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfd1f9f010; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbfab9052f0; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbfb5646920>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftos', executablePath='<DVTFilePath:0x7fbfcfae4d90:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftos.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2021-10-08 04:32:15 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbfb5448170; bundleID='com.apple.dt.runtime.swiftos', path='<DVTFilePath:0x7fbfcfae4d90:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftos.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfd1f9f010; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbfd1f88080; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbfb55c6ed0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='(null)', teamID='M556D4N79A', identifier='com.apple.dt.runtime.swiftos', executablePath='<DVTFilePath:0x7fbfcfae4d90:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/Frameworks/libswiftos.dylib'>', hardenedRuntime='0'>'> to: /var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/entitlements~~~9bOlIC
+2021-10-08 04:32:15 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '7FC766C719C1459D6B1CA6AD3068221C5464013B' '--entitlements' '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/entitlements~~~9bOlIC' '--preserve-metadata=identifier,flags,runtime' '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftos.dylib'
+2021-10-08 04:32:15 +0000  /var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftos.dylib: replacing existing signature
+2021-10-08 04:32:15 +0000  /var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftos.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftos]
+2021-10-08 04:32:15 +0000  /usr/bin/codesign exited with 0
+2021-10-08 04:32:15 +0000  Entitlements for <IDEDistributionItem: 0x7fbfb37b38d0; bundleID='com.wex6softwares.stuff', path='<DVTFilePath:0x7fbfcfac8e00:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfb540a980; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbfb568c5a0; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbffc185c20>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='{
+    "application-identifier" = "M556D4N79A.com.wex6softwares.stuff";
+    "com.apple.developer.team-identifier" = M556D4N79A;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "M556D4N79A.com.wex6softwares.stuff"
+    );
+}', teamID='M556D4N79A', identifier='com.wex6softwares.stuff', executablePath='<DVTFilePath:0x7fbfd1c29660:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/stuff'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "M556D4N79A.com.wex6softwares.stuff";
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = M556D4N79A;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "M556D4N79A.com.wex6softwares.stuff"
+    );
+}
+2021-10-08 04:32:15 +0000  Entitlements for <IDEDistributionItem: 0x7fbfb37b38d0; bundleID='com.wex6softwares.stuff', path='<DVTFilePath:0x7fbfcfac8e00:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfb540a980; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc01d146390; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fc02698b2e0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='{
+    "application-identifier" = "M556D4N79A.com.wex6softwares.stuff";
+    "com.apple.developer.team-identifier" = M556D4N79A;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "M556D4N79A.com.wex6softwares.stuff"
+    );
+}', teamID='M556D4N79A', identifier='com.wex6softwares.stuff', executablePath='<DVTFilePath:0x7fbfd1c29660:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/stuff'>', hardenedRuntime='0'>'> are: {
+    "application-identifier" = "M556D4N79A.com.wex6softwares.stuff";
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = M556D4N79A;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "M556D4N79A.com.wex6softwares.stuff"
+    );
+}
+2021-10-08 04:32:15 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbfb37b38d0; bundleID='com.wex6softwares.stuff', path='<DVTFilePath:0x7fbfcfac8e00:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbfb540a980; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbfb37f36c0; name='Apple Development: Nishanth Shankar (8PS7UEP8DZ)', hash='6F9506FE413393C64E36F034B029E4E26BC54762', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbfb3769970>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-10-06 10:25:32 +0000''>', entitlements='{
+    "application-identifier" = "M556D4N79A.com.wex6softwares.stuff";
+    "com.apple.developer.team-identifier" = M556D4N79A;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "M556D4N79A.com.wex6softwares.stuff"
+    );
+}', teamID='M556D4N79A', identifier='com.wex6softwares.stuff', executablePath='<DVTFilePath:0x7fbfd1c29660:'/Users/nishanth/Library/Developer/Xcode/Archives/2021-10-08/stuff 08-10-21, 12.20 AM.xcarchive/Products/Applications/stuff.app/stuff'>', hardenedRuntime='0'>'> to: /var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/entitlements~~~uTmMbY
+2021-10-08 04:32:15 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '7FC766C719C1459D6B1CA6AD3068221C5464013B' '--entitlements' '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/entitlements~~~uTmMbY' '--preserve-metadata=identifier,flags,runtime' '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app'
+2021-10-08 04:32:16 +0000  /var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app: signed app bundle with Mach-O thin (arm64) [com.wex6softwares.stuff]
+2021-10-08 04:32:16 +0000  /usr/bin/codesign exited with 0
+2021-10-08 04:32:16 +0000  Processing step: IDEDistributionZipODRItemStep
+2021-10-08 04:32:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2021-10-08 04:32:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2021-10-08 04:32:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2021-10-08 04:32:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2021-10-08 04:32:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2021-10-08 04:32:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2021-10-08 04:32:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2021-10-08 04:32:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2021-10-08 04:32:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2021-10-08 04:32:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2021-10-08 04:32:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2021-10-08 04:32:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2021-10-08 04:32:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2021-10-08 04:32:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2021-10-08 04:32:16 +0000  Processing step: IDEDistributionCreateIPAStep
+2021-10-08 04:32:16 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root' '/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Packages/stuff.ipa'
+2021-10-08 04:32:16 +0000  >>> Copying /var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root 
+2021-10-08 04:32:16 +0000  copying file ./BCSymbolMaps/B7546090-C5C7-38F9-855A-F4913E3B91C9.bcsymbolmap ... 
+2021-10-08 04:32:16 +0000  3601119 bytes for ./BCSymbolMaps/B7546090-C5C7-38F9-855A-F4913E3B91C9.bcsymbolmap
+2021-10-08 04:32:16 +0000  copying file ./Payload/stuff.app/_CodeSignature/CodeResources ... 
+2021-10-08 04:32:16 +0000  24586 bytes for ./Payload/stuff.app/_CodeSignature/CodeResources
+2021-10-08 04:32:16 +0000  copying file ./Payload/stuff.app/AppIcon60x60@2x.png ... 
+2021-10-08 04:32:16 +0000  10978 bytes for ./Payload/stuff.app/AppIcon60x60@2x.png
+2021-10-08 04:32:16 +0000  copying file ./Payload/stuff.app/AccessibilityResources.bundle/en.lproj/Localizable.strings ... 
+2021-10-08 04:32:16 +0000  518 bytes for ./Payload/stuff.app/AccessibilityResources.bundle/en.lproj/Localizable.strings
+copying file ./Payload/stuff.app/AccessibilityResources.bundle/Info.plist ... 
+2021-10-08 04:32:16 +0000  792 bytes for ./Payload/stuff.app/AccessibilityResources.bundle/Info.plist
+copying file ./Payload/stuff.app/GoogleService-Info.plist ... 
+2021-10-08 04:32:16 +0000  646 bytes for ./Payload/stuff.app/GoogleService-Info.plist
+copying file ./Payload/stuff.app/stuff ... 
+2021-10-08 04:32:18 +0000  45428304 bytes for ./Payload/stuff.app/stuff
+2021-10-08 04:32:18 +0000  copying file ./Payload/stuff.app/GoogleSignIn.bundle/de.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:32:18 +0000  1703 bytes for ./Payload/stuff.app/GoogleSignIn.bundle/de.lproj/GoogleSignIn.strings
+copying file ./Payload/stuff.app/GoogleSignIn.bundle/he.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:32:18 +0000  1780 bytes for ./Payload/stuff.app/GoogleSignIn.bundle/he.lproj/GoogleSignIn.strings
+2021-10-08 04:32:18 +0000  copying file ./Payload/stuff.app/GoogleSignIn.bundle/ar.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:32:18 +0000  1759 bytes for ./Payload/stuff.app/GoogleSignIn.bundle/ar.lproj/GoogleSignIn.strings
+copying file ./Payload/stuff.app/GoogleSignIn.bundle/el.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:32:18 +0000  2103 bytes for ./Payload/stuff.app/GoogleSignIn.bundle/el.lproj/GoogleSignIn.strings
+2021-10-08 04:32:18 +0000  copying file ./Payload/stuff.app/GoogleSignIn.bundle/ja.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:32:18 +0000  1711 bytes for ./Payload/stuff.app/GoogleSignIn.bundle/ja.lproj/GoogleSignIn.strings
+copying file ./Payload/stuff.app/GoogleSignIn.bundle/en.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:32:18 +0000  1547 bytes for ./Payload/stuff.app/GoogleSignIn.bundle/en.lproj/GoogleSignIn.strings
+2021-10-08 04:32:18 +0000  copying file ./Payload/stuff.app/GoogleSignIn.bundle/uk.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:32:18 +0000  1864 bytes for ./Payload/stuff.app/GoogleSignIn.bundle/uk.lproj/GoogleSignIn.strings
+2021-10-08 04:32:18 +0000  copying file ./Payload/stuff.app/GoogleSignIn.bundle/es_MX.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:32:18 +0000  1607 bytes for ./Payload/stuff.app/GoogleSignIn.bundle/es_MX.lproj/GoogleSignIn.strings
+copying file ./Payload/stuff.app/GoogleSignIn.bundle/zh_CN.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:32:18 +0000  1489 bytes for ./Payload/stuff.app/GoogleSignIn.bundle/zh_CN.lproj/GoogleSignIn.strings
+2021-10-08 04:32:18 +0000  copying file ./Payload/stuff.app/GoogleSignIn.bundle/nb.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:32:18 +0000  1593 bytes for ./Payload/stuff.app/GoogleSignIn.bundle/nb.lproj/GoogleSignIn.strings
+copying file ./Payload/stuff.app/GoogleSignIn.bundle/es.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:32:18 +0000  1678 bytes for ./Payload/stuff.app/GoogleSignIn.bundle/es.lproj/GoogleSignIn.strings
+2021-10-08 04:32:18 +0000  copying file ./Payload/stuff.app/GoogleSignIn.bundle/pt_BR.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:32:18 +0000  1608 bytes for ./Payload/stuff.app/GoogleSignIn.bundle/pt_BR.lproj/GoogleSignIn.strings
+2021-10-08 04:32:18 +0000  copying file ./Payload/stuff.app/GoogleSignIn.bundle/da.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:32:18 +0000  1611 bytes for ./Payload/stuff.app/GoogleSignIn.bundle/da.lproj/GoogleSignIn.strings
+2021-10-08 04:32:18 +0000  copying file ./Payload/stuff.app/GoogleSignIn.bundle/it.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:32:18 +0000  1570 bytes for ./Payload/stuff.app/GoogleSignIn.bundle/it.lproj/GoogleSignIn.strings
+2021-10-08 04:32:18 +0000  copying file ./Payload/stuff.app/GoogleSignIn.bundle/sk.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:32:18 +0000  1665 bytes for ./Payload/stuff.app/GoogleSignIn.bundle/sk.lproj/GoogleSignIn.strings
+2021-10-08 04:32:18 +0000  copying file ./Payload/stuff.app/GoogleSignIn.bundle/pt_PT.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:32:18 +0000  1646 bytes for ./Payload/stuff.app/GoogleSignIn.bundle/pt_PT.lproj/GoogleSignIn.strings
+2021-10-08 04:32:18 +0000  copying file ./Payload/stuff.app/GoogleSignIn.bundle/google@3x.png ... 
+2021-10-08 04:32:18 +0000  1773 bytes for ./Payload/stuff.app/GoogleSignIn.bundle/google@3x.png
+2021-10-08 04:32:18 +0000  copying file ./Payload/stuff.app/GoogleSignIn.bundle/ms.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:32:18 +0000  1565 bytes for ./Payload/stuff.app/GoogleSignIn.bundle/ms.lproj/GoogleSignIn.strings
+2021-10-08 04:32:18 +0000  copying file ./Payload/stuff.app/GoogleSignIn.bundle/sv.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:32:18 +0000  1579 bytes for ./Payload/stuff.app/GoogleSignIn.bundle/sv.lproj/GoogleSignIn.strings
+2021-10-08 04:32:18 +0000  copying file ./Payload/stuff.app/GoogleSignIn.bundle/cs.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:32:18 +0000  1615 bytes for ./Payload/stuff.app/GoogleSignIn.bundle/cs.lproj/GoogleSignIn.strings
+2021-10-08 04:32:18 +0000  copying file ./Payload/stuff.app/GoogleSignIn.bundle/google@2x.png ... 
+2021-10-08 04:32:18 +0000  1166 bytes for ./Payload/stuff.app/GoogleSignIn.bundle/google@2x.png
+copying file ./Payload/stuff.app/GoogleSignIn.bundle/ko.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:32:18 +0000  1634 bytes for ./Payload/stuff.app/GoogleSignIn.bundle/ko.lproj/GoogleSignIn.strings
+copying file ./Payload/stuff.app/GoogleSignIn.bundle/hu.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:32:18 +0000  1663 bytes for ./Payload/stuff.app/GoogleSignIn.bundle/hu.lproj/GoogleSignIn.strings
+2021-10-08 04:32:18 +0000  copying file ./Payload/stuff.app/GoogleSignIn.bundle/tr.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:32:18 +0000  1596 bytes for ./Payload/stuff.app/GoogleSignIn.bundle/tr.lproj/GoogleSignIn.strings
+copying file ./Payload/stuff.app/GoogleSignIn.bundle/pl.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:32:18 +0000  1578 bytes for ./Payload/stuff.app/GoogleSignIn.bundle/pl.lproj/GoogleSignIn.strings
+2021-10-08 04:32:18 +0000  copying file ./Payload/stuff.app/GoogleSignIn.bundle/zh_TW.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:32:18 +0000  1525 bytes for ./Payload/stuff.app/GoogleSignIn.bundle/zh_TW.lproj/GoogleSignIn.strings
+copying file ./Payload/stuff.app/GoogleSignIn.bundle/en_GB.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:32:18 +0000  1547 bytes for ./Payload/stuff.app/GoogleSignIn.bundle/en_GB.lproj/GoogleSignIn.strings
+2021-10-08 04:32:18 +0000  copying file ./Payload/stuff.app/GoogleSignIn.bundle/vi.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:32:18 +0000  1717 bytes for ./Payload/stuff.app/GoogleSignIn.bundle/vi.lproj/GoogleSignIn.strings
+2021-10-08 04:32:18 +0000  copying file ./Payload/stuff.app/GoogleSignIn.bundle/ru.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:32:18 +0000  1954 bytes for ./Payload/stuff.app/GoogleSignIn.bundle/ru.lproj/GoogleSignIn.strings
+copying file ./Payload/stuff.app/GoogleSignIn.bundle/fr_CA.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:32:18 +0000  1657 bytes for ./Payload/stuff.app/GoogleSignIn.bundle/fr_CA.lproj/GoogleSignIn.strings
+2021-10-08 04:32:18 +0000  copying file ./Payload/stuff.app/GoogleSignIn.bundle/fr.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:32:18 +0000  1676 bytes for ./Payload/stuff.app/GoogleSignIn.bundle/fr.lproj/GoogleSignIn.strings
+2021-10-08 04:32:18 +0000  copying file ./Payload/stuff.app/GoogleSignIn.bundle/fi.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:32:18 +0000  1640 bytes for ./Payload/stuff.app/GoogleSignIn.bundle/fi.lproj/GoogleSignIn.strings
+2021-10-08 04:32:18 +0000  copying file ./Payload/stuff.app/GoogleSignIn.bundle/id.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:32:18 +0000  1553 bytes for ./Payload/stuff.app/GoogleSignIn.bundle/id.lproj/GoogleSignIn.strings
+2021-10-08 04:32:18 +0000  copying file ./Payload/stuff.app/GoogleSignIn.bundle/nl.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:32:18 +0000  1606 bytes for ./Payload/stuff.app/GoogleSignIn.bundle/nl.lproj/GoogleSignIn.strings
+2021-10-08 04:32:18 +0000  copying file ./Payload/stuff.app/GoogleSignIn.bundle/th.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:32:18 +0000  2133 bytes for ./Payload/stuff.app/GoogleSignIn.bundle/th.lproj/GoogleSignIn.strings
+2021-10-08 04:32:18 +0000  copying file ./Payload/stuff.app/GoogleSignIn.bundle/pt.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:32:18 +0000  1608 bytes for ./Payload/stuff.app/GoogleSignIn.bundle/pt.lproj/GoogleSignIn.strings
+copying file ./Payload/stuff.app/GoogleSignIn.bundle/google.png ... 
+2021-10-08 04:32:18 +0000  643 bytes for ./Payload/stuff.app/GoogleSignIn.bundle/google.png
+copying file ./Payload/stuff.app/GoogleSignIn.bundle/Roboto-Bold.ttf ... 
+2021-10-08 04:32:18 +0000  127744 bytes for ./Payload/stuff.app/GoogleSignIn.bundle/Roboto-Bold.ttf
+2021-10-08 04:32:18 +0000  copying file ./Payload/stuff.app/GoogleSignIn.bundle/ro.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:32:18 +0000  1598 bytes for ./Payload/stuff.app/GoogleSignIn.bundle/ro.lproj/GoogleSignIn.strings
+copying file ./Payload/stuff.app/GoogleSignIn.bundle/Info.plist ... 
+2021-10-08 04:32:18 +0000  721 bytes for ./Payload/stuff.app/GoogleSignIn.bundle/Info.plist
+2021-10-08 04:32:18 +0000  copying file ./Payload/stuff.app/GoogleSignIn.bundle/hr.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:32:18 +0000  1621 bytes for ./Payload/stuff.app/GoogleSignIn.bundle/hr.lproj/GoogleSignIn.strings
+copying file ./Payload/stuff.app/GoogleSignIn.bundle/hi.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:32:18 +0000  2286 bytes for ./Payload/stuff.app/GoogleSignIn.bundle/hi.lproj/GoogleSignIn.strings
+2021-10-08 04:32:18 +0000  copying file ./Payload/stuff.app/GoogleSignIn.bundle/ca.lproj/GoogleSignIn.strings ... 
+2021-10-08 04:32:18 +0000  1669 bytes for ./Payload/stuff.app/GoogleSignIn.bundle/ca.lproj/GoogleSignIn.strings
+2021-10-08 04:32:18 +0000  copying file ./Payload/stuff.app/Assets.car ... 
+2021-10-08 04:32:18 +0000  343592 bytes for ./Payload/stuff.app/Assets.car
+copying file ./Payload/stuff.app/main.jsbundle ... 
+2021-10-08 04:32:18 +0000  1046339 bytes for ./Payload/stuff.app/main.jsbundle
+2021-10-08 04:32:18 +0000  copying file ./Payload/stuff.app/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2021-10-08 04:32:18 +0000  3773 bytes for ./Payload/stuff.app/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Payload/stuff.app/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2021-10-08 04:32:18 +0000  896 bytes for ./Payload/stuff.app/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/stuff.app/LaunchScreen.storyboardc/Info.plist ... 
+2021-10-08 04:32:18 +0000  258 bytes for ./Payload/stuff.app/LaunchScreen.storyboardc/Info.plist
+2021-10-08 04:32:18 +0000  copying file ./Payload/stuff.app/Frameworks/libswiftCoreImage.dylib ... 
+2021-10-08 04:32:18 +0000  352368 bytes for ./Payload/stuff.app/Frameworks/libswiftCoreImage.dylib
+copying file ./Payload/stuff.app/Frameworks/libswiftObjectiveC.dylib ... 
+2021-10-08 04:32:18 +0000  500080 bytes for ./Payload/stuff.app/Frameworks/libswiftObjectiveC.dylib
+copying file ./Payload/stuff.app/Frameworks/libswiftCore.dylib ... 
+2021-10-08 04:32:22 +0000  69852784 bytes for ./Payload/stuff.app/Frameworks/libswiftCore.dylib
+2021-10-08 04:32:22 +0000  copying file ./Payload/stuff.app/Frameworks/libswiftCoreGraphics.dylib ... 
+2021-10-08 04:32:22 +0000  1535328 bytes for ./Payload/stuff.app/Frameworks/libswiftCoreGraphics.dylib
+2021-10-08 04:32:22 +0000  copying file ./Payload/stuff.app/Frameworks/OpenSSL.framework/_CodeSignature/CodeResources ... 
+2021-10-08 04:32:22 +0000  1798 bytes for ./Payload/stuff.app/Frameworks/OpenSSL.framework/_CodeSignature/CodeResources
+2021-10-08 04:32:22 +0000  copying file ./Payload/stuff.app/Frameworks/OpenSSL.framework/OpenSSL ... 
+2021-10-08 04:32:22 +0000  8164032 bytes for ./Payload/stuff.app/Frameworks/OpenSSL.framework/OpenSSL
+2021-10-08 04:32:22 +0000  copying file ./Payload/stuff.app/Frameworks/OpenSSL.framework/Info.plist ... 
+716 bytes for ./Payload/stuff.app/Frameworks/OpenSSL.framework/Info.plist
+copying file ./Payload/stuff.app/Frameworks/libswiftUIKit.dylib ... 
+2021-10-08 04:32:22 +0000  1200976 bytes for ./Payload/stuff.app/Frameworks/libswiftUIKit.dylib
+copying file ./Payload/stuff.app/Frameworks/libswiftMetal.dylib ... 
+2021-10-08 04:32:23 +0000  544912 bytes for ./Payload/stuff.app/Frameworks/libswiftMetal.dylib
+2021-10-08 04:32:23 +0000  copying file ./Payload/stuff.app/Frameworks/libswiftDispatch.dylib ... 
+2021-10-08 04:32:23 +0000  2993312 bytes for ./Payload/stuff.app/Frameworks/libswiftDispatch.dylib
+copying file ./Payload/stuff.app/Frameworks/libswiftos.dylib ... 
+2021-10-08 04:32:23 +0000  644944 bytes for ./Payload/stuff.app/Frameworks/libswiftos.dylib
+2021-10-08 04:32:23 +0000  copying file ./Payload/stuff.app/Frameworks/libswiftCoreFoundation.dylib ... 
+2021-10-08 04:32:23 +0000  335920 bytes for ./Payload/stuff.app/Frameworks/libswiftCoreFoundation.dylib
+copying file ./Payload/stuff.app/Frameworks/libswiftDarwin.dylib ... 
+2021-10-08 04:32:23 +0000  813968 bytes for ./Payload/stuff.app/Frameworks/libswiftDarwin.dylib
+copying file ./Payload/stuff.app/Frameworks/libswiftQuartzCore.dylib ... 
+2021-10-08 04:32:23 +0000  355584 bytes for ./Payload/stuff.app/Frameworks/libswiftQuartzCore.dylib
+copying file ./Payload/stuff.app/Frameworks/libswiftFoundation.dylib ... 
+2021-10-08 04:32:24 +0000  31957072 bytes for ./Payload/stuff.app/Frameworks/libswiftFoundation.dylib
+copying file ./Payload/stuff.app/embedded.mobileprovision ... 
+2021-10-08 04:32:24 +0000  12020 bytes for ./Payload/stuff.app/embedded.mobileprovision
+copying file ./Payload/stuff.app/Info.plist ... 
+2021-10-08 04:32:24 +0000  2954 bytes for ./Payload/stuff.app/Info.plist
+copying file ./Payload/stuff.app/PkgInfo ... 
+2021-10-08 04:32:24 +0000  8 bytes for ./Payload/stuff.app/PkgInfo
+2021-10-08 04:32:24 +0000  copying file ./SwiftSupport/iphoneos/libswiftCoreImage.dylib ... 
+2021-10-08 04:32:24 +0000  466448 bytes for ./SwiftSupport/iphoneos/libswiftCoreImage.dylib
+2021-10-08 04:32:24 +0000  copying file ./SwiftSupport/iphoneos/libswiftObjectiveC.dylib ... 
+2021-10-08 04:32:24 +0000  679568 bytes for ./SwiftSupport/iphoneos/libswiftObjectiveC.dylib
+2021-10-08 04:32:24 +0000  copying file ./SwiftSupport/iphoneos/libswiftCore.dylib ... 
+2021-10-08 04:32:33 +0000  95497472 bytes for ./SwiftSupport/iphoneos/libswiftCore.dylib
+2021-10-08 04:32:33 +0000  copying file ./SwiftSupport/iphoneos/libswiftCoreGraphics.dylib ... 
+2021-10-08 04:32:33 +0000  2040928 bytes for ./SwiftSupport/iphoneos/libswiftCoreGraphics.dylib
+2021-10-08 04:32:33 +0000  copying file ./SwiftSupport/iphoneos/libswiftUIKit.dylib ... 
+2021-10-08 04:32:33 +0000  1608688 bytes for ./SwiftSupport/iphoneos/libswiftUIKit.dylib
+copying file ./SwiftSupport/iphoneos/libswiftMetal.dylib ... 
+2021-10-08 04:32:33 +0000  724304 bytes for ./SwiftSupport/iphoneos/libswiftMetal.dylib
+copying file ./SwiftSupport/iphoneos/libswiftDispatch.dylib ... 
+2021-10-08 04:32:34 +0000  4056784 bytes for ./SwiftSupport/iphoneos/libswiftDispatch.dylib
+2021-10-08 04:32:34 +0000  copying file ./SwiftSupport/iphoneos/libswiftos.dylib ... 
+2021-10-08 04:32:34 +0000  857072 bytes for ./SwiftSupport/iphoneos/libswiftos.dylib
+copying file ./SwiftSupport/iphoneos/libswiftCoreFoundation.dylib ... 
+2021-10-08 04:32:34 +0000  450272 bytes for ./SwiftSupport/iphoneos/libswiftCoreFoundation.dylib
+2021-10-08 04:32:34 +0000  copying file ./SwiftSupport/iphoneos/libswiftDarwin.dylib ... 
+2021-10-08 04:32:34 +0000  1091328 bytes for ./SwiftSupport/iphoneos/libswiftDarwin.dylib
+2021-10-08 04:32:34 +0000  copying file ./SwiftSupport/iphoneos/libswiftQuartzCore.dylib ... 
+2021-10-08 04:32:34 +0000  486224 bytes for ./SwiftSupport/iphoneos/libswiftQuartzCore.dylib
+2021-10-08 04:32:34 +0000  copying file ./SwiftSupport/iphoneos/libswiftFoundation.dylib ... 
+2021-10-08 04:32:36 +0000  43094208 bytes for ./SwiftSupport/iphoneos/libswiftFoundation.dylib
+2021-10-08 04:32:36 +0000  /usr/bin/ditto exited with 0
+2021-10-08 04:32:36 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2021-10-08 04:32:36 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2021-10-08 04:32:36 +0000  Processing step: IDEDistributionGenerateProcessedDistributionItems
+2021-10-08 04:32:36 +0000  IDEDistributionItem init <DVTFilePath:0x7fbff379d560:'/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftObjectiveC.dylib'>
+2021-10-08 04:32:36 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x7fbff379d560:'/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftObjectiveC.dylib'>
+2021-10-08 04:32:36 +0000  IDEDistributionItem init <DVTFilePath:0x7fbfb3d987d0:'/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftCoreGraphics.dylib'>
+2021-10-08 04:32:36 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x7fbfb3d987d0:'/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftCoreGraphics.dylib'>
+2021-10-08 04:32:36 +0000  IDEDistributionItem init <DVTFilePath:0x7fbfb54bacb0:'/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftCoreFoundation.dylib'>
+2021-10-08 04:32:36 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x7fbfb54bacb0:'/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftCoreFoundation.dylib'>
+2021-10-08 04:32:36 +0000  IDEDistributionItem init <DVTFilePath:0x7fbfb54d6a50:'/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftCore.dylib'>
+2021-10-08 04:32:36 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x7fbfb54d6a50:'/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftCore.dylib'>
+2021-10-08 04:32:36 +0000  IDEDistributionItem init <DVTFilePath:0x7fbfd1c35730:'/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftCoreImage.dylib'>
+2021-10-08 04:32:36 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x7fbfd1c35730:'/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftCoreImage.dylib'>
+2021-10-08 04:32:36 +0000  IDEDistributionItem init <DVTFilePath:0x7fbfb550d200:'/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftDispatch.dylib'>
+2021-10-08 04:32:36 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x7fbfb550d200:'/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftDispatch.dylib'>
+2021-10-08 04:32:36 +0000  IDEDistributionItem init <DVTFilePath:0x7fbfd1c7c7d0:'/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftQuartzCore.dylib'>
+2021-10-08 04:32:36 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x7fbfd1c7c7d0:'/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftQuartzCore.dylib'>
+2021-10-08 04:32:36 +0000  IDEDistributionItem init <DVTFilePath:0x7fbfb3d54990:'/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/OpenSSL.framework'>
+2021-10-08 04:32:36 +0000  IDEDistributionItem init <DVTFilePath:0x7fbfb3682a00:'/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftUIKit.dylib'>
+2021-10-08 04:32:36 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x7fbfb3682a00:'/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftUIKit.dylib'>
+2021-10-08 04:32:36 +0000  IDEDistributionItem init <DVTFilePath:0x7fbfd1c7cab0:'/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftFoundation.dylib'>
+2021-10-08 04:32:36 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x7fbfd1c7cab0:'/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftFoundation.dylib'>
+2021-10-08 04:32:36 +0000  IDEDistributionItem init <DVTFilePath:0x7fc01d1b2b10:'/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftos.dylib'>
+2021-10-08 04:32:37 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x7fc01d1b2b10:'/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftos.dylib'>
+2021-10-08 04:32:37 +0000  IDEDistributionItem init <DVTFilePath:0x7fbfb37de060:'/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftMetal.dylib'>
+2021-10-08 04:32:37 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x7fbfb37de060:'/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftMetal.dylib'>
+2021-10-08 04:32:37 +0000  IDEDistributionItem init <DVTFilePath:0x7fbfb378db70:'/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftDarwin.dylib'>
+2021-10-08 04:32:37 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x7fbfb378db70:'/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app/Frameworks/libswiftDarwin.dylib'>
+2021-10-08 04:32:37 +0000  IDEDistributionItem init <DVTFilePath:0x7fbfb55727b0:'/var/folders/fx/6r2_tnwd2qg3jtkz5gm98r9m0000gq/T/XcodeDistPipeline.~~~3E430x/Root/Payload/stuff.app'>
+2021-10-08 04:32:37 +0000  Processing step: IDEDistributionCreateManifestStep
+2021-10-08 04:32:37 +0000  Skipping step: IDEDistributionCreateManifestStep because it said so

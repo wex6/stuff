@@ -12,7 +12,9 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2143891226DD63F1004591D9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2143891126DD63F1004591D9 /* GoogleService-Info.plist */; };
+		21C8413C2721E41700EEDE0F /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 21C8413B2721E41700EEDE0F /* AppCenter-Config.plist */; };
 		21F42B7C2705004B00C29453 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F42B7B2705004B00C29453 /* File.swift */; };
+		21F42B7E270E852800C29453 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 21F42B7D270E852700C29453 /* main.jsbundle */; };
 		2BDC8758B7B752457F364FB2 /* libPods-stuff-stuffTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 328C8C73F4C4B8386FAA6B33 /* libPods-stuff-stuffTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		B0E6769840C1DE1D31CC3D8F /* libPods-stuff.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B0DF3EEF40A8390CDB1FB1 /* libPods-stuff.a */; };
@@ -40,8 +42,10 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = stuff/main.m; sourceTree = "<group>"; };
 		1C6732B510BF768A35274AD8 /* Pods-stuff-stuffTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stuff-stuffTests.debug.xcconfig"; path = "Target Support Files/Pods-stuff-stuffTests/Pods-stuff-stuffTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2143891126DD63F1004591D9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		21C8413B2721E41700EEDE0F /* AppCenter-Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AppCenter-Config.plist"; sourceTree = "<group>"; };
 		21F42B7A2705004A00C29453 /* stuff-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "stuff-Bridging-Header.h"; sourceTree = "<group>"; };
 		21F42B7B2705004B00C29453 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		21F42B7D270E852700C29453 /* main.jsbundle */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		328C8C73F4C4B8386FAA6B33 /* libPods-stuff-stuffTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-stuff-stuffTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62669C0852DFC12A25423A41 /* Pods-stuff.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stuff.release.xcconfig"; path = "Target Support Files/Pods-stuff/Pods-stuff.release.xcconfig"; sourceTree = "<group>"; };
 		73BD24C4B1E32C8543770063 /* Pods-stuff.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stuff.debug.xcconfig"; path = "Target Support Files/Pods-stuff/Pods-stuff.debug.xcconfig"; sourceTree = "<group>"; };
@@ -121,6 +125,8 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				21C8413B2721E41700EEDE0F /* AppCenter-Config.plist */,
+				21F42B7D270E852700C29453 /* main.jsbundle */,
 				21F42B7B2705004B00C29453 /* File.swift */,
 				2143891126DD63F1004591D9 /* GoogleService-Info.plist */,
 				13B07FAE1A68108700A75B9A /* stuff */,
@@ -251,6 +257,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21F42B7E270E852800C29453 /* main.jsbundle in Resources */,
+				21C8413C2721E41700EEDE0F /* AppCenter-Config.plist in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				2143891226DD63F1004591D9 /* GoogleService-Info.plist in Resources */,
@@ -509,13 +517,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEVELOPMENT_TEAM = M556D4N79A;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = stuff/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1.1;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -523,6 +535,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wex6softwares.stuff;
 				PRODUCT_NAME = stuff;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "stuff-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -536,12 +549,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEVELOPMENT_TEAM = M556D4N79A;
 				INFOPLIST_FILE = stuff/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1.1;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -549,6 +566,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wex6softwares.stuff;
 				PRODUCT_NAME = stuff;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "stuff-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
