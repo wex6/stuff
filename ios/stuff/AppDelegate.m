@@ -7,6 +7,7 @@
 #import <AppCenterReactNative.h>
 #import <AppCenterReactNativeAnalytics.h>
 #import <AppCenterReactNativeCrashes.h>
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
 #import <CodePush/CodePush.h>
 
 #ifdef FB_SONARKIT_ENABLED
@@ -36,6 +37,7 @@ static void InitializeFlipper(UIApplication *application) {
       [FIRApp configure];
     }
   
+  [FBSDKApplicationDelegate.sharedInstance initializeSDK];
   [AppCenterReactNative register];
   [AppCenterReactNativeAnalytics registerWithInitiallyEnabled:true];
   [AppCenterReactNativeCrashes registerWithAutomaticProcessing];
@@ -46,6 +48,7 @@ static void InitializeFlipper(UIApplication *application) {
 
   RCTBridge *bridge = [[RCTBridge alloc] initWithDelegate:self launchOptions:launchOptions];
 [ReactNativeNavigation bootstrapWithBridge:bridge];
+  
   
 
   return YES;

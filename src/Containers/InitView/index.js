@@ -64,28 +64,14 @@ const InitView = props => {
 
   useEffect(() => {
     console.log('AUH:', auth)
+    // auth().signOut()
     
-    const subscriber = auth().onAuthStateChanged(onAuthStateChanged)
-
-    // setTimeout(() => {
-    //   console.log('NB', Navigation)
-
-    //   Navigation.setStackRoot(props.componentId, {
-    //     component: {
-    //       name: 'Login',
-    //     },
-    //   })
-    // }, 3000)
-
-    // return subscriber // unsubscribe on unmount
-  }, [])
-
-  // console.log('ISER:', Object.keys(auth().signOut))
-  // auth().signOut()
-
+    auth().onAuthStateChanged(onAuthStateChanged)
+  })
+    
   return (
     // <SafeAreaView style={{flex: 1}}>
-    <View style={{flex: 1, backgroundColor: 'pink'}}></View>
+    <View style={{flex: 1, backgroundColor: '#fafafa'}}></View>
     // </SafeAreaView>
   )
 }

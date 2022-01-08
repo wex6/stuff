@@ -11,6 +11,9 @@ import InitView from './src/Containers/InitView/'
 import MainView from './src/Containers/MainView/'
 import AddItemView from './src/Containers/AddItemView'
 import {Navigation} from 'react-native-navigation'
+import { Settings } from 'react-native-fbsdk-next'
+
+Settings.initializeSDK();
 
 
 Navigation.registerComponent('Login', () => App)
@@ -43,6 +46,23 @@ const bottomTabVisible = {
   bottomTabs: {
     visible: false,
   },
+}
+
+global.base = {
+  
+    bottomTabs: {
+      id: 'BOTTOM_TABS_LAYOUT',
+      children: [
+        createStackChild('INIT', [{name: 'Init'}], bottomTabInvisible),
+        createStackChild('LOGIN_TEST', [{name: 'Login'}], bottomTabVisible),
+      ],
+      options: {
+        bottomTabs: {
+          visible: true,
+        },
+      },
+    },
+  
 }
 
 Navigation.events().registerAppLaunchedListener(() => {

@@ -31,6 +31,8 @@ PODS:
     - React-Core
     - SSZipArchive (~> 2.2.2)
   - DoubleConversion (1.1.6)
+  - FBAEMKit (12.1.0):
+    - FBSDKCoreKit_Basics (= 12.1.0)
   - FBLazyVector (0.65.1)
   - FBReactNativeSpec (0.65.1):
     - RCT-Folly (= 2021.04.26.00)
@@ -39,6 +41,14 @@ PODS:
     - React-Core (= 0.65.1)
     - React-jsi (= 0.65.1)
     - ReactCommon/turbomodule/core (= 0.65.1)
+  - FBSDKCoreKit (12.1.0):
+    - FBAEMKit (= 12.1.0)
+    - FBSDKCoreKit_Basics (= 12.1.0)
+  - FBSDKCoreKit_Basics (12.1.0)
+  - FBSDKLoginKit (12.1.0):
+    - FBSDKCoreKit (= 12.1.0)
+  - FBSDKShareKit (12.1.0):
+    - FBSDKCoreKit (= 12.1.0)
   - Firebase/Auth (8.7.0):
     - Firebase/CoreOnly
     - FirebaseAuth (~> 8.7.0)
@@ -59,10 +69,10 @@ PODS:
     - FirebaseCoreDiagnostics (~> 8.0)
     - GoogleUtilities/Environment (~> 7.4)
     - GoogleUtilities/Logger (~> 7.4)
-  - FirebaseCoreDiagnostics (8.7.0):
-    - GoogleDataTransport (~> 9.0)
-    - GoogleUtilities/Environment (~> 7.4)
-    - GoogleUtilities/Logger (~> 7.4)
+  - FirebaseCoreDiagnostics (8.10.0):
+    - GoogleDataTransport (~> 9.1)
+    - GoogleUtilities/Environment (~> 7.6)
+    - GoogleUtilities/Logger (~> 7.6)
     - nanopb (~> 2.30908.0)
   - FirebaseDatabase (8.7.0):
     - FirebaseCore (~> 8.0)
@@ -132,7 +142,7 @@ PODS:
     - FlipperKit/FlipperKitNetworkPlugin
   - fmt (6.2.1)
   - glog (0.3.5)
-  - GoogleDataTransport (9.1.0):
+  - GoogleDataTransport (9.1.2):
     - GoogleUtilities/Environment (~> 7.2)
     - nanopb (~> 2.30908.0)
     - PromisesObjC (< 3.0, >= 1.2)
@@ -140,20 +150,20 @@ PODS:
     - AppAuth (~> 1.4)
     - GTMAppAuth (~> 1.0)
     - GTMSessionFetcher/Core (~> 1.1)
-  - GoogleUtilities/AppDelegateSwizzler (7.5.2):
+  - GoogleUtilities/AppDelegateSwizzler (7.6.0):
     - GoogleUtilities/Environment
     - GoogleUtilities/Logger
     - GoogleUtilities/Network
-  - GoogleUtilities/Environment (7.5.2):
+  - GoogleUtilities/Environment (7.6.0):
     - PromisesObjC (< 3.0, >= 1.2)
-  - GoogleUtilities/Logger (7.5.2):
+  - GoogleUtilities/Logger (7.6.0):
     - GoogleUtilities/Environment
-  - GoogleUtilities/Network (7.5.2):
+  - GoogleUtilities/Network (7.6.0):
     - GoogleUtilities/Logger
     - "GoogleUtilities/NSData+zlib"
     - GoogleUtilities/Reachability
-  - "GoogleUtilities/NSData+zlib (7.5.2)"
-  - GoogleUtilities/Reachability (7.5.2):
+  - "GoogleUtilities/NSData+zlib (7.6.0)"
+  - GoogleUtilities/Reachability (7.6.0):
     - GoogleUtilities/Logger
   - GTMAppAuth (1.2.2):
     - AppAuth/Core (~> 1.4)
@@ -369,6 +379,20 @@ PODS:
     - React-jsi (= 0.65.1)
     - React-perflogger (= 0.65.1)
   - React-jsinspector (0.65.1)
+  - react-native-fbsdk-next (6.1.1):
+    - React-Core
+    - react-native-fbsdk-next/Core (= 6.1.1)
+    - react-native-fbsdk-next/Login (= 6.1.1)
+    - react-native-fbsdk-next/Share (= 6.1.1)
+  - react-native-fbsdk-next/Core (6.1.1):
+    - FBSDKCoreKit (~> 12.1.0)
+    - React-Core
+  - react-native-fbsdk-next/Login (6.1.1):
+    - FBSDKLoginKit (~> 12.1.0)
+    - React-Core
+  - react-native-fbsdk-next/Share (6.1.1):
+    - FBSDKShareKit (~> 12.1.0)
+    - React-Core
   - react-native-image-picker (4.1.1):
     - React-Core
   - React-perflogger (0.65.1)
@@ -444,6 +468,8 @@ PODS:
     - React-Core
     - React-RCTImage
     - React-RCTText
+  - RNAppleAuthentication (2.1.5):
+    - React-Core
   - RNFBApp (12.8.0):
     - Firebase/CoreOnly (= 8.7.0)
     - React-Core
@@ -513,6 +539,7 @@ DEPENDENCIES:
   - React-jsi (from `../node_modules/react-native/ReactCommon/jsi`)
   - React-jsiexecutor (from `../node_modules/react-native/ReactCommon/jsiexecutor`)
   - React-jsinspector (from `../node_modules/react-native/ReactCommon/jsinspector`)
+  - react-native-fbsdk-next (from `../node_modules/react-native-fbsdk-next`)
   - react-native-image-picker (from `../node_modules/react-native-image-picker`)
   - React-perflogger (from `../node_modules/react-native/ReactCommon/reactperflogger`)
   - React-RCTActionSheet (from `../node_modules/react-native/Libraries/ActionSheetIOS`)
@@ -527,6 +554,7 @@ DEPENDENCIES:
   - React-runtimeexecutor (from `../node_modules/react-native/ReactCommon/runtimeexecutor`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
   - ReactNativeNavigation (from `../node_modules/react-native-navigation`)
+  - "RNAppleAuthentication (from `../node_modules/@invertase/react-native-apple-authentication`)"
   - "RNFBApp (from `../node_modules/@react-native-firebase/app`)"
   - "RNFBAuth (from `../node_modules/@react-native-firebase/auth`)"
   - "RNFBDatabase (from `../node_modules/@react-native-firebase/database`)"
@@ -542,6 +570,11 @@ SPEC REPOS:
     - Base64
     - boost-for-react-native
     - CocoaAsyncSocket
+    - FBAEMKit
+    - FBSDKCoreKit
+    - FBSDKCoreKit_Basics
+    - FBSDKLoginKit
+    - FBSDKShareKit
     - Firebase
     - FirebaseAuth
     - FirebaseCore
@@ -615,6 +648,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/jsiexecutor"
   React-jsinspector:
     :path: "../node_modules/react-native/ReactCommon/jsinspector"
+  react-native-fbsdk-next:
+    :path: "../node_modules/react-native-fbsdk-next"
   react-native-image-picker:
     :path: "../node_modules/react-native-image-picker"
   React-perflogger:
@@ -643,6 +678,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon"
   ReactNativeNavigation:
     :path: "../node_modules/react-native-navigation"
+  RNAppleAuthentication:
+    :path: "../node_modules/@invertase/react-native-apple-authentication"
   RNFBApp:
     :path: "../node_modules/@react-native-firebase/app"
   RNFBAuth:
@@ -668,12 +705,17 @@ SPEC CHECKSUMS:
   CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
   CodePush: 35a0d8be82686010ee70b510c3549ba8df5ca737
   DoubleConversion: 831926d9b8bf8166fd87886c4abab286c2422662
+  FBAEMKit: 56c0bb9b42e3747cd82b67934f0c2b19325382ea
   FBLazyVector: 33c82491102f20ecddb6c6a2c273696ace3191e0
   FBReactNativeSpec: df8f81d2a7541ee6755a047b398a5cb5a72acd0e
+  FBSDKCoreKit: 75368765d9c2303073145a7925dfaa9d60bcd77b
+  FBSDKCoreKit_Basics: 39865aff97e5f6951a78fb3e89dc4460e35e1895
+  FBSDKLoginKit: e993f97c7cc794c5da4056d8aec3c3d66033a727
+  FBSDKShareKit: 24943f539dbe382a6fad04952ea1aee29b100c1f
   Firebase: bc9325d5ee2041524bac78a5213d0e530c651309
   FirebaseAuth: 2e7d029977648c67a5d51a263d4cbab76d34cf12
   FirebaseCore: f4804c1d3f4bbbefc88904d15653038f2c99ddf7
-  FirebaseCoreDiagnostics: b63732f581a1c6a453ec7241f9ab60b3a5bd3450
+  FirebaseCoreDiagnostics: 56fb7216d87e0e6ec2feddefa9d8a392fe8b2c18
   FirebaseDatabase: afc82291f9ed94ff949cec1b9505e8c3b944bc0f
   FirebaseStorage: 2e6e58fe31fb0061fdce3f156d0ebc964e9de6ba
   Flipper: b1fddf9a17c32097b2b4c806ad158b2f36bb2692
@@ -687,9 +729,9 @@ SPEC CHECKSUMS:
   FlipperKit: aec2d931adeee48a07bab1ea8bcc8a6bb87dfce4
   fmt: ff9d55029c625d3757ed641535fd4a75fedc7ce9
   glog: 5337263514dd6f09803962437687240c5dc39aa4
-  GoogleDataTransport: 85fd18ff3019bb85d3f2c551d04c481dedf71fc9
+  GoogleDataTransport: 629c20a4d363167143f30ea78320d5a7eb8bd940
   GoogleSignIn: fd381840dbe7c1137aa6dc30849a5c3e070c034a
-  GoogleUtilities: 8de2a97a17e15b6b98e38e8770e2d129a57c0040
+  GoogleUtilities: 684ee790a24f73ebb2d1d966e9711c203f2a4237
   GTMAppAuth: ad5c2b70b9a8689e1a04033c9369c4915bfcbe89
   GTMSessionFetcher: 43748f93435c2aa068b1cbe39655aaf600652e91
   JWT: ef71dfb03e1f842081e64dc42eef0e164f35d251
@@ -711,6 +753,7 @@ SPEC CHECKSUMS:
   React-jsi: 12913c841713a15f64eabf5c9ad98592c0ec5940
   React-jsiexecutor: 43f2542aed3c26e42175b339f8d37fe3dd683765
   React-jsinspector: 41e58e5b8e3e0bf061fdf725b03f2144014a8fb0
+  react-native-fbsdk-next: 50b2ce0e56ef9b68cb0fd7f19072364296896c20
   react-native-image-picker: 7c37cd600a9b7338ced8609cc3ad108ebe6c444f
   React-perflogger: fd28ee1f2b5b150b00043f0301d96bd417fdc339
   React-RCTActionSheet: 7f3fa0855c346aa5d7c60f9ced16e067db6d29fa
@@ -725,6 +768,7 @@ SPEC CHECKSUMS:
   React-runtimeexecutor: 85187f19dd9c47a7c102f9994f9d14e4dc2110de
   ReactCommon: eafed38eec7b591c31751bfa7494801618460459
   ReactNativeNavigation: d6f27d4ba71887a161534a13e8ef3873b26c68b5
+  RNAppleAuthentication: 63c2127ace11985b94f852fc480eb84145653712
   RNFBApp: b97d6654509a5852d49f0abf93be76b300fd2e2c
   RNFBAuth: 07fd836f31fe09d465c22476a052766251af1c49
   RNFBDatabase: 194a730d8182d81cccb7c8126b6e8a71f3bf5d74

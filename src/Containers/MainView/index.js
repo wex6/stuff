@@ -129,7 +129,7 @@ const MainView = props => {
     return
   }
 
-  console.log('df:', filteredItems)
+  // console.log('df:', filteredItems)
 
   return (
     // <SafeAreaView style={{flex: 1}}>
@@ -159,6 +159,7 @@ const MainView = props => {
           <StuffItem id={key} key={key} {...item} />
         ))}
       </View>
+      {/* <Button title='Sign Out' onPress={()=>auth().signOut()} /> */}
     </View>
     // </SafeAreaView>
   )
