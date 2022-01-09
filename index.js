@@ -2,9 +2,8 @@
  * @format
  */
 
-// import {AppRegistry} from 'react-native'
+import {AppRegistry} from 'react-native'
 // import {packageName as appName} from './app.json'
-// AppRegistry.registerComponent(appName, () => App);
 
 import App from './App'
 import InitView from './src/Containers/InitView/'
@@ -12,6 +11,7 @@ import MainView from './src/Containers/MainView/'
 import AddItemView from './src/Containers/AddItemView'
 import {Navigation} from 'react-native-navigation'
 import { Settings } from 'react-native-fbsdk-next'
+// AppRegistry.registerComponent('Init', () => InitView);
 
 Settings.initializeSDK();
 
@@ -75,6 +75,9 @@ Navigation.events().registerAppLaunchedListener(() => {
           createStackChild('LOGIN_TEST', [{name: 'Login'}], bottomTabVisible),
         ],
         options: {
+          topBar: {
+            visible:false
+          },
           bottomTabs: {
             visible: true,
           },

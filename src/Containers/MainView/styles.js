@@ -20,9 +20,9 @@ const styles = StyleSheet.create({
     marginBottom: 6,
   },
   item: {
-    height: 150,
+    aspectRatio:0.73,
     borderRadius: 12,
-    width: '27%',
+    width: '44%',
     overflow:'hidden',
     backgroundColor: '#fcebd0',
     margin: '3%',

@@ -8,25 +8,13 @@
 
 import React, {useState, useEffect} from 'react'
 
-import {Text, View, ScrollView, Button, TouchableOpacity} from 'react-native'
-import {Navigation} from 'react-native-navigation'
+import {Text, View, ScrollView, Button} from 'react-native'
 import Dialog from 'react-native-dialog'
 import Store from '../../Stores'
 import s from './styles'
+import PlaceItem from '../PlaceItem'
 
-const PlaceItem = props => {
-  const place = Store('places').useStoreData(props.id) || {}
-  return (
-    <TouchableOpacity
-      style={s.item(props.selected)}
-      onPress={() => {
-        console.log('Onpress:', props.id)
-        props.onPress(props.id)
-      }}>
-      <Text style={{fontSize: 18}}>{place.name}</Text>
-    </TouchableOpacity>
-  )
-}
+
 
 const PlaceView = props => {
   const [, actions] = Store('places').useStore()
@@ -58,7 +46,7 @@ const PlaceView = props => {
   const items = place?.items || {}
   const displayType = props.type.slice(0, -1)
   return (
-    <View style={s.container}>
+    <View style={props.style}>
       <View style={s.nameContainer}>
         <Text style={s.nameText}>
           {props.type} {place.name ? `in ${place.name}` : null}
