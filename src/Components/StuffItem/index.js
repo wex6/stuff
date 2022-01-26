@@ -11,8 +11,10 @@ import React from 'react'
 import { Text, ImageBackground } from 'react-native'
 
 import s from './styles'
-import Touchable from '../../Components/Touchable/'
 import { useNavigation } from '@react-navigation/native'
+import LinearGradient from 'react-native-linear-gradient'
+
+import Touchable from '../../Components/Touchable/'
 // import { Navigation } from 'react-native-navigation'
 
 const StuffItem = props => {
@@ -38,7 +40,19 @@ const StuffItem = props => {
         style={s.image}
         source={{ uri: props.image, cache: 'force-cache' }}
       />
-      <Text style={s.label}>{labels.map(label => `#${label}`).join(', ')}</Text>
+      <LinearGradient
+        colors={['#0000', '#000f']}
+        style={{
+          position: 'absolute',
+          bottom: 0,
+          left: 0,
+          right: 0,
+          padding: 12
+        }}>
+        <Text style={s.label}>
+          {labels.map(label => `#${label}`).join(', ')}
+        </Text>
+      </LinearGradient>
     </Touchable>
   )
 }
