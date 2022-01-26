@@ -13,6 +13,17 @@ const styles = StyleSheet.create({
     width:'100%', 
     height:'100%',
     borderRadius:12
+  },
+  label: {
+    textShadowColor: 'black',
+    textShadowOffset: { width: 2, height: 1 },
+    textShadowRadius: 3,
+    position: 'absolute',
+    bottom: 12,
+    left: 8,
+    fontSize: 14,
+    fontWeight: 'bold',
+    color: 'white'
   }
 })
 

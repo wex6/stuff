@@ -48,6 +48,20 @@ const styles = StyleSheet.create({
     height: 56,
     backgroundColor: 'black',
   },
+  bar: {
+    position: 'absolute',
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingHorizontal:12,
+    justifyContent:'space-between',
+    bottom: 0,
+    left: 0,
+    right: 0,
+    height: 48,
+    borderTopLeftRadius: 24,
+    borderTopRightRadius: 24,
+    backgroundColor: 'white'
+  }
 })
 
 export default styles

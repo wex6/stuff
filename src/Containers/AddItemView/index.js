@@ -35,11 +35,18 @@ import s from './styles'
 const IMAGE =
   'https://images.unsplash.com/photo-1544376798-89aa6b82c6cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dmVydGljYWwlMjBsYW5kc2NhcGV8ZW58MHx8MHx8&w=1000&q=80'
 
+const dateOptions = {
+  day: '2-digit',
+  year: 'numeric',
+  month: 'short'
+}
+
 const AddItemView = props => {
   // console.log('TED:', props.text)
   const [homeId, setHomeId] = useState(props.homeId)
   const [roomId, setRoomId] = useState(props.roomId)
   const [spotId, setSpotId] = useState(props.spotId)
+  const [isEditing, setIsEditing] = useState(false)
   const [inputText, setInputText] = useState(null)
   const [imageUri, setImageUri] = useState(props.image)
   const finalImageUri = useRef(props.image)
@@ -91,6 +98,11 @@ const AddItemView = props => {
   }
 
   const addItem = async () => {
+    if (props.editing && !isEditing) {
+      LayoutAnimation.configureNext(LayoutAnimation.Presets.easeInEaseOut)
+      setIsEditing(true)
+      return
+    }
     if (loading) return
     setLoading(true)
     const userId = auth()?.currentUser?.uid
@@ -124,6 +136,7 @@ const AddItemView = props => {
     // if (!spotId) return
 
     actions.addEntry(userId, {
+      createdAt: new Date().getTime(),
       image: finalImageUri.current,
       label: tags.join(', '),
       owner: userId,
@@ -148,8 +161,6 @@ const AddItemView = props => {
     //
   }
 
-  console.log('ROOMID:', roomId)
-
   return (
     <KeyboardAvoidingView
       behavior="padding"
@@ -159,20 +170,29 @@ const AddItemView = props => {
         <Image
           resizeMode="cover"
           style={{ backgroundColor: 'black', height: '100%' }}
-          source={{ uri: imageUri || props.imagePath }}
+          source={{ uri: imageUri || props.imagePath, cache:'force-cache'}}
         />
-        <View
-          style={{
-            position: 'absolute',
-            bottom: 0,
-            left: 0,
-            right: 0,
-            height: 48,
-            borderTopLeftRadius: 44,
-            borderTopRightRadius: 44,
-            backgroundColor: 'white'
-          }}
-        />
+        <View style={s.bar}>
+          <Touchable
+            onPress={() => {
+              Navigation.dismissAllModals()
+            }}
+            style={{
+              alignItems: 'center',
+              justifyContent: 'center',
+              height: 48,
+              width: 48
+            }}
+          >
+            <Text style={{ fontSize: 18, fontWeight: 'bold' }}>X</Text>
+          </Touchable>
+          {props.createdAt ? (
+            <Text>
+              Created on{' '}
+              {new Date(props.createdAt).toLocaleString('en-US', dateOptions)}
+            </Text>
+          ) : null}
+        </View>
       </View>
       <View style={{ backgroundColor: 'white', paddingBottom: 44 }}>
         <View style={{ padding: 24, paddingVertical: 0 }}>
@@ -189,7 +209,7 @@ const AddItemView = props => {
               </Text>
             ))}
           </View>
-          <View
+          { isEditing || (!props.editing) ? <View
             style={{
               flexDirection: 'row',
               alignItems: 'center',
@@ -215,45 +235,54 @@ const AddItemView = props => {
                 marginHorizontal: 12
               }}
             />
-          </View>
+          </View>:null}
           {/* Stuff Location */}
         </View>
         {!tags.length ? null : (
           <View>
+            <View style={{ flexDirection: 'row', alignItems: 'center' }} />
             <Text style={{ fontSize: 18, margin: 12, marginLeft: 18 }}>
               {!spotId ? 'Where is it?' : 'The stuff is at'}
             </Text>
             {!spotId ? null : (
-              <ScrollView horizontal bounce={false} contentContainerStyle={{alignItems: 'center'}}>
+              <ScrollView
+                horizontal
+                bounce={false}
+                contentContainerStyle={{ alignItems: 'center' }}
+              >
                 <View style={{ width: 24 }} />
                 <PlaceItem id={homeId} labelOnly />
-                <Text style={{fontSize:18, fontWeight: 'bold'}}>  ->  </Text>
+                <Text style={{ fontSize: 18, fontWeight: 'bold' }}> -> </Text>
                 <PlaceItem id={roomId} labelOnly />
-                <Text style={{fontSize:18, fontWeight: 'bold'}}>  ->  </Text>
+                <Text style={{ fontSize: 18, fontWeight: 'bold' }}> -> </Text>
                 <PlaceItem id={spotId} labelOnly />
               </ScrollView>
             )}
-            <PlaceView
-              style={{ marginTop: 16 }}
-              placeId={auth()?.currentUser?.uid}
-              type="Homes"
-              selectedId={homeId}
-              onPress={setId(setHomeId)}
-            />
-            <PlaceView
-              style={{ marginTop: 16 }}
-              placeId={homeId}
-              type="Rooms"
-              selectedId={roomId}
-              onPress={setId(setRoomId)}
-            />
-            <PlaceView
-              style={{ marginTop: 16 }}
-              placeId={roomId}
-              type="Spots"
-              selectedId={spotId}
-              onPress={setId(setSpotId)}
-            />
+            {props.editing && !isEditing ? null : (
+              <View>
+                <PlaceView
+                  style={{ marginTop: 16 }}
+                  placeId={auth()?.currentUser?.uid}
+                  type="Homes"
+                  selectedId={homeId}
+                  onPress={setId(setHomeId)}
+                />
+                <PlaceView
+                  style={{ marginTop: 16 }}
+                  placeId={homeId}
+                  type="Rooms"
+                  selectedId={roomId}
+                  onPress={setId(setRoomId)}
+                />
+                <PlaceView
+                  style={{ marginTop: 16 }}
+                  placeId={roomId}
+                  type="Spots"
+                  selectedId={spotId}
+                  onPress={setId(setSpotId)}
+                />
+              </View>
+            )}
           </View>
         )}
         {!spotId ? null : (
@@ -273,7 +302,7 @@ const AddItemView = props => {
               <Text
                 style={{ color: 'white', fontSize: 16, fontWeight: 'bold' }}
               >
-                ADD
+                {props.editing ? (isEditing ? 'UPDATE' : 'EDIT') : 'ADD'}
               </Text>
             )}
           </Touchable>

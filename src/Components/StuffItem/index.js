@@ -24,6 +24,7 @@ const StuffItem = props => {
               name: 'AddItem',
               passProps: {
                 editing: true,
+                createdAt: props.createdAt,
                 id: props.id,
                 tags: props.label?.split(', '),
                 image: props.image,
@@ -32,12 +33,7 @@ const StuffItem = props => {
                 spotId: props.spotId
               },
               options: {
-                modalPresentationStyle: 'pageSheet',
-                topBar: {
-                  title: {
-                    text: 'Edit Item'
-                  }
-                }
+                modalPresentationStyle: 'fullScreen'
               }
             }
           }
@@ -50,19 +46,9 @@ const StuffItem = props => {
 
   return (
     <Touchable style={s.item} onPress={onPress}>
-      <ImageBackground style={s.image} source={{ uri: props.image }} />
+      <ImageBackground style={s.image} source={{ uri: props.image, cache:'force-cache' }} />
       <Text
-        style={{
-          textShadowColor: 'black',
-          textShadowOffset: { width: 2, height: 1 },
-          textShadowRadius: 3,
-          position: 'absolute',
-          bottom: 12,
-          left: 8,
-          fontSize: 16,
-          fontWeight: 'bold',
-          color: 'white'
-        }}
+        style={s.label}
       >
         {labels.map(label => `#${label}`).join(', ')}
       </Text>

@@ -33,45 +33,6 @@ import {launchCamera, launchImageLibrary} from 'react-native-image-picker'
 
 import Store from '../../Stores'
 
-const StuffItemO = props => {
-  const onPress = () => {
-    Navigation.showModal({
-      stack: {
-        children: [
-          {
-            component: {
-              name: 'AddItem',
-              passProps: {
-                editing: true,
-                id: props.id,
-                tags: props.label?.split(', '),
-                image: props.image,
-                homeId: props.homeId,
-                roomId: props.roomId,
-                spotId: props.spotId
-              },
-              options: {
-                modalPresentationStyle: 'pageSheet',
-                topBar: {
-                  title: {
-                    text: 'Edit Item'
-                  }
-                }
-              }
-            }
-          }
-        ]
-      }
-    })
-  }
-
-  return (
-    <TouchableOpacity style={s.item} onPress={onPress}>
-      <ImageBackground style={s.image} source={{ uri: props.image }} />
-    </TouchableOpacity>
-  )
-}
-
 const MainView = props => {
   const userId = auth()?.currentUser?.uid
   const items = Store('items').useStoreData(userId) || {}
@@ -124,12 +85,12 @@ const MainView = props => {
 
   const onAdd = () => {
     
-    launchImageLibrary(
-      // launchCamera(
+    // launchImageLibrary(
+      launchCamera(
         {
-          // saveToPhotos: true,
-          maxWidth: 220,
-          maxHeight: 328,
+          saveToPhotos: true,
+          maxWidth: 440,
+          maxHeight: 656,
         },
         async c => {
           
