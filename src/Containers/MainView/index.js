@@ -142,7 +142,7 @@ const MainView = props => {
             {/* </View> */}
           </View>
           <View style={s.infoBar}>
-            <Text style={{ fontSize: 16 }}>
+            <Text>
               {pluralize('Item', counts.items, true)} |{' '}
               {pluralize('Spot', counts.spots, true)} |{' '}
               {pluralize('Room', counts.rooms, true)} |{' '}
@@ -153,12 +153,12 @@ const MainView = props => {
               style={{
                 borderRadius: 6,
                 padding: 8,
-                paddingHorizontal: 20,
+                paddingHorizontal: 12,
                 borderWidth: 2,
                 borderColor: '#84cce4'
               }}>
               <Text
-                style={{ fontSize: 16, fontWeight: 'bold', color: '#84cce4' }}>
+                style={{ fontSize: 14, fontWeight: 'bold', color: '#84cce4' }}>
                 Add
               </Text>
             </Touchable>

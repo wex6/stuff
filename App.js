@@ -15,6 +15,17 @@ import MainView from './src/Containers/MainView'
 import AddItemView from './src/Containers/AddItemView'
 import { NavigationContainer } from '@react-navigation/native'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
+import { setCustomText } from 'react-native-global-props'
+
+const customTextProps = {
+  style: {
+    fontSize: 14,
+    fontFamily: 'Montserrat-Regular',
+    color: 'black'
+  }
+}
+
+setCustomText(customTextProps)
 
 const Stack = createNativeStackNavigator()
 

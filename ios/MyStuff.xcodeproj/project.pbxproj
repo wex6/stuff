@@ -11,9 +11,9 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		213C78BB27A04CC800AA0962 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 213C78BA27A04CC800AA0962 /* GoogleService-Info.plist */; };
 		213C78BE27A139D700AA0962 /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 213C78BD27A139D700AA0962 /* AppCenter-Config.plist */; };
 		213C78C127A13A0F00AA0962 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213C78C027A13A0F00AA0962 /* File.swift */; };
+		213C78C327A13FBD00AA0962 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 213C78C227A13FBD00AA0962 /* GoogleService-Info.plist */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		9D53830CF4D8211B60017CAC /* libPods-MyStuff-MyStuffTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DD43E86C03E01EFC195B00A /* libPods-MyStuff-MyStuffTests.a */; };
 		F4383D5206DE4CB5A5151EDE /* Montserrat-Regular.woff in Resources */ = {isa = PBXBuildFile; fileRef = 20A377F699C44BCF93939419 /* Montserrat-Regular.woff */; };
@@ -43,11 +43,11 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MyStuff/main.m; sourceTree = "<group>"; };
 		18513566B466FDAB68E8F603 /* Pods-MyStuff.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyStuff.release.xcconfig"; path = "Target Support Files/Pods-MyStuff/Pods-MyStuff.release.xcconfig"; sourceTree = "<group>"; };
 		20A377F699C44BCF93939419 /* Montserrat-Regular.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Regular.woff"; path = "../src/assets/fonts/Montserrat-Regular.woff"; sourceTree = "<group>"; };
-		213C78BA27A04CC800AA0962 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		213C78BC27A081D000AA0962 /* MyStuff.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = MyStuff.entitlements; path = MyStuff/MyStuff.entitlements; sourceTree = "<group>"; };
 		213C78BD27A139D700AA0962 /* AppCenter-Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AppCenter-Config.plist"; sourceTree = "<group>"; };
 		213C78BF27A13A0F00AA0962 /* MyStuff-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyStuff-Bridging-Header.h"; sourceTree = "<group>"; };
 		213C78C027A13A0F00AA0962 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		213C78C227A13FBD00AA0962 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		23B7B3AB3CDB62A5CEE8BAA8 /* libPods-MyStuff.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyStuff.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DD43E86C03E01EFC195B00A /* libPods-MyStuff-MyStuffTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyStuff-MyStuffTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MyStuff/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -129,8 +129,8 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				213C78C227A13FBD00AA0962 /* GoogleService-Info.plist */,
 				213C78BD27A139D700AA0962 /* AppCenter-Config.plist */,
-				213C78BA27A04CC800AA0962 /* GoogleService-Info.plist */,
 				13B07FAE1A68108700A75B9A /* MyStuff */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* MyStuffTests */,
@@ -269,8 +269,8 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				213C78BE27A139D700AA0962 /* AppCenter-Config.plist in Resources */,
+				213C78C327A13FBD00AA0962 /* GoogleService-Info.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				213C78BB27A04CC800AA0962 /* GoogleService-Info.plist in Resources */,
 				F4383D5206DE4CB5A5151EDE /* Montserrat-Regular.woff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
