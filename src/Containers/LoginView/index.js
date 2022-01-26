@@ -3,6 +3,7 @@ import React, { useEffect } from 'react'
 import { View } from 'react-native'
 import auth from '@react-native-firebase/auth'
 import database from '@react-native-firebase/database'
+import LinearGradient from 'react-native-linear-gradient'
 
 import GoogleSignIn from '../../Components/GoogleSignIn'
 import AppleSignIn from '../../Components/AppleSignIn'
@@ -59,19 +60,21 @@ const LoginView = props => {
   }, [])
 
   return (
-    <View style={{ flex: 1, backgroundColor: 'pink' }}>
-      <View style={{ flex: 1, backgroundColor: 'blue' }}></View>
+    <LinearGradient
+      colors={['#4c669f', '#3b5998', '#192f6a']}
+      style={{ flex: 1, backgroundColor: 'pink' }}>
+      <View style={{ flex: 1 }}></View>
       <View
         style={{
           flex: 1,
-          backgroundColor: 'pink',
+
           alignItems: 'center',
           justifyContent: 'center'
         }}>
         <GoogleSignIn />
         <AppleSignIn />
       </View>
-    </View>
+    </LinearGradient>
   )
 }
 
