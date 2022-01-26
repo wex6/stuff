@@ -6,19 +6,8 @@ import { AppleButton } from '@invertase/react-native-apple-authentication'
 import { appleAuth } from '@invertase/react-native-apple-authentication'
 import auth from '@react-native-firebase/auth'
 
-const getRandomString = length => {
-  let randomChars =
-    'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789'
-  let result = ''
-  for (let i = 0; i < length; i++) {
-    result += randomChars.charAt(Math.floor(Math.random() * randomChars.length))
-  }
-  return result
-}
-
 function AppleSignIn () {
   async function onAppleButtonPress () {
-    const rawNonce = getRandomString(20)
     // Start the sign-in request
     const appleAuthRequestResponse = await appleAuth.performRequest({
       requestedOperation: appleAuth.Operation.LOGIN,
@@ -34,7 +23,7 @@ function AppleSignIn () {
     const { identityToken, nonce } = appleAuthRequestResponse
     const appleCredential = auth.AppleAuthProvider.credential(
       identityToken,
-      rawNonce
+      nonce
     )
 
     // Sign the user in with the credential
