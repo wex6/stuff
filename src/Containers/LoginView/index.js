@@ -10,7 +10,9 @@ import AppleSignIn from '../../Components/AppleSignIn'
 
 const LoginView = props => {
   function onAuthStateChanged (user) {
-    if (!user) return
+    if (!user) {
+      return
+    }
     const newUser = {
       displayName: user.displayName,
       email: user.email,
@@ -48,14 +50,15 @@ const LoginView = props => {
       .catch(() => {})
 
     // Go to main View
-    props?.navigation?.navigate('Main')
+    console.log('REPLACE')
+    props?.navigation?.replace('Main')
     // console.log('ISER1:', user.uid)
   }
 
   useEffect(() => {
     // console.log('AUH:', auth)
     const subscriber = auth().onAuthStateChanged(onAuthStateChanged)
-
+    auth().is
     // return subscriber // unsubscribe on unmount
   }, [])
 

@@ -8,7 +8,8 @@
 
 import React from 'react'
 import { Button } from 'react-native'
-import auth from '@react-native-firebase/auth'
+// import auth from '@react-native-firebase/auth'
+import codePush from 'react-native-code-push'
 
 import LoginView from './src/Containers/LoginView'
 import MainView from './src/Containers/MainView'
@@ -16,6 +17,7 @@ import AddItemView from './src/Containers/AddItemView'
 import { NavigationContainer } from '@react-navigation/native'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
 import { setCustomText } from 'react-native-global-props'
+import auth from '@react-native-firebase/auth'
 
 const customTextProps = {
   style: {
@@ -30,10 +32,13 @@ setCustomText(customTextProps)
 const Stack = createNativeStackNavigator()
 
 const App = () => {
+  const user = auth().currentUser
+  console.log('USER:', user)
+  const initialRouteName = user ? 'Main' : 'Login'
   return (
     <NavigationContainer>
       <Stack.Navigator
-        initialRouteName='Login'
+        initialRouteName={initialRouteName}
         screenOptions={{ headerShown: false }}>
         <Stack.Screen name='Login' component={LoginView} />
         <Stack.Screen name='Main' component={MainView} />
@@ -44,9 +49,8 @@ const App = () => {
           options={{ presentation: 'fullScreenModal' }}
         />
       </Stack.Navigator>
-      <Button title='Signout' onPress={() => auth().signOut()}></Button>
     </NavigationContainer>
   )
 }
 
-export default App
+export default codePush(App)

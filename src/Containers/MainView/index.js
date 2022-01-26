@@ -11,13 +11,8 @@ import React, { useState, useEffect } from 'react'
 import {
   SafeAreaView,
   ScrollView,
-  StatusBar,
-  ImageBackground,
-  StyleSheet,
-  TouchableOpacity,
   Text,
   TextInput,
-  useColorScheme,
   Button,
   View
 } from 'react-native'
@@ -168,7 +163,14 @@ const MainView = props => {
               <StuffItem id={key} key={key} {...item} />
             ))}
           </View>
-          {/* <Button title='Sign Out' onPress={()=>auth().signOut()} /> */}
+          <Button
+            title='Sign Out'
+            onPress={() => {
+              auth()
+                .signOut()
+                .then(() => props.navigation.replace('Login'))
+            }}
+          />
         </View>
       </ScrollView>
     </SafeAreaView>
