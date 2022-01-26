@@ -12,11 +12,13 @@ import { Text, ImageBackground } from 'react-native'
 
 import s from './styles'
 import Touchable from '../../Components/Touchable/'
+import { useNavigation } from '@react-navigation/native'
 // import { Navigation } from 'react-native-navigation'
 
 const StuffItem = props => {
+  const navigation = useNavigation()
   const onPress = () => {
-    props.navigation.navigate('AddItem', {
+    navigation.navigate('AddItem', {
       editing: true,
       createdAt: props.createdAt,
       id: props.id,

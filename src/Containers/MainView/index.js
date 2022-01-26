@@ -110,8 +110,16 @@ const MainView = props => {
                 height: 50,
                 justifyContent: 'space-around'
               }}>
-              <Text>Where is my</Text>
-              <Text style={{ marginTop: 8, fontSize: 22, fontWeight: 'bold' }}>
+              <Text style={{ fontFamily: 'Montserrat-Regular' }}>
+                Where is my
+              </Text>
+              <Text
+                style={{
+                  fontFamily: 'Montserrat-Regular',
+                  marginTop: 8,
+                  fontSize: 22,
+                  fontWeight: 'bold'
+                }}>
                 STUFF
               </Text>
             </View>
@@ -157,12 +165,7 @@ const MainView = props => {
           </View>
           <View style={{ flexDirection: 'row', flexWrap: 'wrap' }}>
             {filteredItems.map(([key, item]) => (
-              <StuffItem
-                navigation={props.navigation}
-                id={key}
-                key={key}
-                {...item}
-              />
+              <StuffItem id={key} key={key} {...item} />
             ))}
           </View>
           {/* <Button title='Sign Out' onPress={()=>auth().signOut()} /> */}
