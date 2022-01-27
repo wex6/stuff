@@ -1,12 +1,23 @@
 import React, { useEffect } from 'react'
 
-import { View } from 'react-native'
+import { View, Text } from 'react-native'
 import auth from '@react-native-firebase/auth'
 import database from '@react-native-firebase/database'
-import LinearGradient from 'react-native-linear-gradient'
 
 import GoogleSignIn from '../../Components/GoogleSignIn'
 import AppleSignIn from '../../Components/AppleSignIn'
+import EmailSignIn from '../../Components/EmailSignIn'
+
+const style = {
+  holder: {
+    flex: 1,
+    backgroundColor: '#d64d47',
+    alignItems: 'center',
+    justifyContent: 'center',
+    color: 'white'
+  },
+  title: { marginBottom: 24, color: 'white', fontWeight: 'bold', fontSize: 24 }
+}
 
 const LoginView = props => {
   function onAuthStateChanged (user) {
@@ -27,6 +38,7 @@ const LoginView = props => {
     // currentUser.current = newUser
 
     // Update User
+
     // Create New Place
     database()
       .ref(`users/${user.uid}`)
@@ -63,21 +75,24 @@ const LoginView = props => {
   }, [])
 
   return (
-    <LinearGradient
-      colors={['#4c669f', '#3b5998', '#192f6a']}
-      style={{ flex: 1, backgroundColor: 'pink' }}>
-      <View style={{ flex: 1 }}></View>
+    <View style={{ flex: 1 }}>
+      <View style={style.holder}>
+        <Text style={style.title}>STUFF</Text>
+        <Text style={{ color: 'white' }}>Answer to</Text>
+        <Text style={{ color: 'white' }}>"Where did I keep that?"</Text>
+      </View>
       <View
         style={{
           flex: 1,
-
+          backgroundColor: '#f9Fafc',
           alignItems: 'center',
           justifyContent: 'center'
         }}>
+        <EmailSignIn />
         <GoogleSignIn />
         <AppleSignIn />
       </View>
-    </LinearGradient>
+    </View>
   )
 }
 

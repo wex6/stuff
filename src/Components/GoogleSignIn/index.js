@@ -1,6 +1,9 @@
 import React, { useEffect } from 'react'
 import { Button } from 'react-native'
-import { GoogleSignin } from '@react-native-google-signin/google-signin'
+import {
+  GoogleSignin,
+  GoogleSigninButton
+} from '@react-native-google-signin/google-signin'
 import auth from '@react-native-firebase/auth'
 
 function GoogleSignIn () {
@@ -17,11 +20,11 @@ function GoogleSignIn () {
   }
 
   return (
-    <Button
-      title='Google Sign-In'
-      onPress={() =>
-        onGoogleButtonPress().then(() => console.log('Signed in with Google!'))
-      }
+    <GoogleSigninButton
+      style={{ width: 168, height: 48, marginBottom: 24 }}
+      size={GoogleSigninButton.Size.Standard}
+      color={GoogleSigninButton.Color.Dark}
+      onPress={onGoogleButtonPress}
     />
   )
 }

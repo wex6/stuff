@@ -45,7 +45,7 @@ function AppleSignIn () {
   return (
     <View>
       <AppleButton
-        buttonStyle={AppleButton.Style.WHITE}
+        buttonStyle={AppleButton.Style.BLACK}
         buttonType={AppleButton.Type.SIGN_IN}
         style={{
           width: 160, // You must specify a width
