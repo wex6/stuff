@@ -7,7 +7,8 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "release": "appcenter codepush release-react -a nishanthshankr-0pbz/Stuff -t 1.2.8 -d Staging -m"
   },
   "dependencies": {
     "@invertase/react-native-apple-authentication": "^2.1.5",

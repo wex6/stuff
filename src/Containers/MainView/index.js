@@ -22,6 +22,7 @@ import pluralize from 'pluralize'
 import s from './styles'
 import Touchable from '../../Components/Touchable/'
 import StuffItem from '../../Components/StuffItem/'
+import { AppEventsLogger } from 'react-native-fbsdk-next'
 // import {Navigation} from 'react-native-navigation'
 import auth from '@react-native-firebase/auth'
 import { launchCamera, launchImageLibrary } from 'react-native-image-picker'
@@ -70,8 +71,11 @@ const MainView = props => {
   }, [filterText])
 
   const onAdd = () => {
-    // launchCamera(r
-    launchImageLibrary(
+    try {
+      AppEventsLogger.logEvent(AppEventsLogger.AppEvents.UnlockedAchievement)
+    } catch (error) {}
+    // launchImageLibrary(
+    launchCamera(
       {
         saveToPhotos: true,
         maxWidth: 440,

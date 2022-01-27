@@ -96,6 +96,10 @@
 	<string>Tag the location of your items to find them with ease</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>Upload photos of your item so that you can recognize them later with ease</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Montserrat-Regular.woff</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>
@@ -108,9 +112,5 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
-	<key>UIAppFonts</key>
-	<array>
-		<string>Montserrat-Regular.woff</string>
-	</array>
 </dict>
 </plist>
