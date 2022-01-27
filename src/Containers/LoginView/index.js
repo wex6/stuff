@@ -88,7 +88,7 @@ const LoginView = props => {
           alignItems: 'center',
           justifyContent: 'center'
         }}>
-        <EmailSignIn />
+        {/* <EmailSignIn /> */}
         <GoogleSignIn />
         <AppleSignIn />
       </View>
